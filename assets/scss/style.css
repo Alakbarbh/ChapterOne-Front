@@ -1,7 +1,3 @@
-body {
-  height: 6000px;
-}
-
 #navbar .logo-pages {
   display: flex;
 }
@@ -369,52 +365,295 @@ body {
   margin-left: 56px;
 }
 
-#autobiography {
+#autobiography1 {
   margin-top: 150px;
 }
-#autobiography .autobiography {
+#autobiography1 .autobiography1 {
   background-image: url(../images/home/authobiography-backgorund.jpg);
   width: 100%;
   height: 500px;
+  display: flex;
 }
-#autobiography .autobiography .name {
+#autobiography1 .autobiography1 .left .name {
   color: gray;
   margin-left: 100px;
 }
-#autobiography .autobiography .name p {
+#autobiography1 .autobiography1 .left .name p {
   padding-top: 101px;
   font-family: fangsong;
 }
-#autobiography .autobiography .title {
+#autobiography1 .autobiography1 .left .title {
   margin-left: 100px;
 }
-#autobiography .autobiography .description {
+#autobiography1 .autobiography1 .left .description {
   margin-left: 100px;
   margin-top: 20px;
 }
-#autobiography .autobiography .description p:nth-child(2) {
+#autobiography1 .autobiography1 .left .description p:nth-child(2) {
   margin-top: -10px;
 }
-#autobiography .autobiography .description p:nth-child(3) {
+#autobiography1 .autobiography1 .left .description p:nth-child(3) {
   margin-top: -10px;
 }
-#autobiography .autobiography .button {
+#autobiography1 .autobiography1 .left .button {
   margin-top: 40px;
   margin-left: 100px;
 }
-#autobiography .autobiography .button button {
+#autobiography1 .autobiography1 .left .button button {
   width: 200px;
   background: none;
   border: 1px solid black;
 }
-#autobiography .autobiography .button button p {
+#autobiography1 .autobiography1 .left .button button p {
   padding-top: 13px;
   color: black;
   font-family: initial;
 }
-#autobiography .autobiography .image {
-  text-align: center;
+#autobiography1 .autobiography1 .left .image {
+  margin-left: 500px;
 }
-#autobiography .autobiography .image img {
+#autobiography1 .autobiography1 .left .image img {
   width: 170px;
+}
+#autobiography1 .autobiography1 .right {
+  background-image: url(../images/home/zerler.png);
+  width: 200px;
+  height: 100%;
+}
+#autobiography1 .autobiography1 .right .image1 img {
+  width: 300px;
+  margin-top: -46px;
+  margin-left: 100px;
+}
+#autobiography1 .autobiography1 .right .image2 img {
+  width: 350px;
+  margin-top: -88px;
+  margin-left: 200px;
+}
+
+#autobiography2 {
+  margin-top: 200px;
+}
+#autobiography2 .autobiography2 {
+  background-color: aliceblue;
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+#autobiography2 .autobiography2 .left .backgrounds {
+  display: flex;
+}
+#autobiography2 .autobiography2 .left .backgrounds .backgorund-image {
+  background-image: url(../images/home/background-image-2.png);
+  width: 200px;
+  height: 500px;
+}
+#autobiography2 .autobiography2 .left .backgrounds .images .image1 img {
+  width: 400px;
+  margin-top: -38px;
+}
+#autobiography2 .autobiography2 .left .backgrounds .images .image2 img {
+  width: 200px;
+  margin-left: -140px;
+  margin-top: -42px;
+}
+#autobiography2 .autobiography2 .right {
+  margin-left: 50px;
+}
+#autobiography2 .autobiography2 .right .name {
+  color: gray;
+  margin-left: 100px;
+}
+#autobiography2 .autobiography2 .right .name p {
+  padding-top: 101px;
+  font-family: fangsong;
+}
+#autobiography2 .autobiography2 .right .title {
+  margin-left: 100px;
+}
+#autobiography2 .autobiography2 .right .description {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+#autobiography2 .autobiography2 .right .description p:nth-child(2) {
+  margin-top: -10px;
+}
+#autobiography2 .autobiography2 .right .description p:nth-child(3) {
+  margin-top: -10px;
+}
+#autobiography2 .autobiography2 .right .button {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+#autobiography2 .autobiography2 .right .button button {
+  width: 200px;
+  background: none;
+  border: 1px solid black;
+}
+#autobiography2 .autobiography2 .right .button button p {
+  padding-top: 13px;
+  color: black;
+  font-family: initial;
+}
+#autobiography2 .autobiography2 .right .image {
+  margin-left: 320px;
+}
+#autobiography2 .autobiography2 .right .image img {
+  width: 300px;
+}
+
+#images {
+  margin-top: 200px;
+}
+#images .image1 img {
+  width: 100%;
+}
+#images .image2 img {
+  width: 100%;
+}
+#images .image3 img {
+  width: 100%;
+  margin-top: 23px;
+}
+#images .image4 {
+  margin-top: 20px;
+}
+#images .image4 img {
+  width: 100%;
+}
+#images .image5 {
+  margin-top: 20px;
+}
+#images .image5 img {
+  width: 100%;
+}
+#images .image6 {
+  margin-top: 26px;
+}
+#images .image6 img {
+  width: 100%;
+}
+#images .image7 img {
+  width: 100%;
+}
+#images .image8 {
+  margin-top: 17px;
+}
+#images .image8 img {
+  width: 100%;
+}
+#images .image9 {
+  margin-top: 26px;
+}
+#images .image9 img {
+  width: 100%;
+}
+#images .image10 {
+  margin-top: 26px;
+}
+#images .image10 img {
+  width: 100%;
+}
+#images .image11 img {
+  width: 100%;
+}
+#images .image12 {
+  margin-top: 18px;
+}
+#images img {
+  width: 100%;
+}
+
+#brand {
+  margin-top: 150px;
+}
+#brand img {
+  width: 100%;
+  height: 170px;
+  cursor: pointer;
+}
+#brand img:hover {
+  margin-top: -20px;
+  transition: 0.5s;
+}
+
+#footer {
+  margin-top: 150px;
+  background-color: #282828;
+  width: 100%;
+  height: 450px;
+}
+#footer .left1 {
+  margin-top: 80px;
+}
+#footer .left1 h4 {
+  color: white;
+}
+#footer .left1 .story {
+  margin-top: 40px;
+}
+#footer .left1 .story p {
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+}
+#footer .left1 .story p:hover {
+  color: white;
+  transition: 0.5s;
+}
+#footer .left2 {
+  margin-top: 80px;
+}
+#footer .left2 h4 {
+  color: white;
+}
+#footer .left2 .story {
+  margin-top: 40px;
+}
+#footer .left2 .story p {
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+}
+#footer .left2 .story p:nth-child(2) {
+  margin-top: -15px;
+}
+#footer .left2 .story p:nth-child(3) {
+  margin-top: -15px;
+}
+#footer .left2 .icons a i {
+  color: rgb(153, 153, 153);
+}
+#footer .left2 .icons a i:hover {
+  color: white;
+  transition: 0.5s;
+}
+#footer .left3 {
+  margin-top: 80px;
+}
+#footer .left3 h4 {
+  color: white;
+}
+#footer .left3 .story {
+  margin-top: 40px;
+}
+#footer .left3 .story p {
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+}
+#footer .left3 .story p:nth-child(2) {
+  margin-top: -15px;
+}
+#footer .left3 .email-input input {
+  background-color: #282828;
+  border: 1px solid rgb(153, 153, 153);
+  width: 260px;
+  height: 50px;
+}
+#footer .right {
+  margin-top: 80px;
+}
+#footer .right h4 {
+  color: white;
+}
+#footer .right .story {
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */

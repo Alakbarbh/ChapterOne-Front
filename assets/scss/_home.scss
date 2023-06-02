@@ -1,7 +1,3 @@
-body {
-    height: 6000px;
-}
-
 #navbar {
     .logo-pages {
         display: flex;
@@ -412,6 +408,7 @@ body {
 
     .authors {
         margin-left: 100px;
+
         .services {
             text-align: center;
             color: gray;
@@ -461,13 +458,15 @@ body {
                 }
             }
 
-            .author-description{
-                    margin-left: -22px;
-                p{
-                    &:nth-child(2){
+            .author-description {
+                margin-left: -22px;
+
+                p {
+                    &:nth-child(2) {
                         margin-left: 15px;
                     }
-                    &:nth-child(3){
+
+                    &:nth-child(3) {
                         margin-left: 56px;
                     }
                 }
@@ -476,55 +475,439 @@ body {
     }
 }
 
-#autobiography{
+#autobiography1 {
     margin-top: 150px;
-    .autobiography{
+
+    .autobiography1 {
         background-image: url(../images/home/authobiography-backgorund.jpg);
         width: 100%;
         height: 500px;
-        .name{
-            color: gray;
-            margin-left: 100px;
-            p{
-                padding-top: 101px;
-                font-family: fangsong;
-            }
-        }
-        .title{
-            margin-left: 100px;
-        }
-        .description{
-            margin-left: 100px;
-            margin-top: 20px;
-            p{
-                &:nth-child(2){
-                    margin-top: -10px;
-                }
-                &:nth-child(3){
-                    margin-top: -10px;
-                }
-            }
-        }
-        .button {
-            margin-top: 40px;
-            margin-left: 100px;
-            button {
-                width: 200px;
-                background: none;
-                border: 1px solid black;
+        display: flex;
+
+        .left {
+            .name {
+                color: gray;
+                margin-left: 100px;
 
                 p {
-                    padding-top: 13px;
-                    color: black;
-                    font-family: initial;
+                    padding-top: 101px;
+                    font-family: fangsong;
+                }
+            }
+
+            .title {
+                margin-left: 100px;
+            }
+
+            .description {
+                margin-left: 100px;
+                margin-top: 20px;
+
+                p {
+                    &:nth-child(2) {
+                        margin-top: -10px;
+                    }
+
+                    &:nth-child(3) {
+                        margin-top: -10px;
+                    }
+                }
+            }
+
+            .button {
+                margin-top: 40px;
+                margin-left: 100px;
+
+                button {
+                    width: 200px;
+                    background: none;
+                    border: 1px solid black;
+
+                    p {
+                        padding-top: 13px;
+                        color: black;
+                        font-family: initial;
+                    }
+                }
+            }
+
+            .image {
+                margin-left: 500px;
+
+                img {
+                    width: 170px;
                 }
             }
         }
-        .image{
-            text-align: center;
-            img{
-                width: 170px;
+
+        .right {
+            background-image: url(../images/home/zerler.png);
+            width: 200px;
+            height: 100%;
+
+            .image1 {
+                img {
+                    width: 300px;
+                    margin-top: -46px;
+                    margin-left: 100px;
+                }
+            }
+
+            .image2 {
+                img {
+                    width: 350px;
+                    margin-top: -88px;
+                    margin-left: 200px;
+                }
+            }
+
+
+        }
+
+    }
+}
+
+#autobiography2 {
+    margin-top: 200px;
+
+    .autobiography2 {
+        background-color: aliceblue;
+        width: 100%;
+        height: 500px;
+        display: flex;
+
+        .left {
+            .backgrounds {
+                display: flex;
+
+                .backgorund-image {
+                    background-image: url(../images/home/background-image-2.png);
+                    width: 200px;
+                    height: 500px;
+                }
+
+                .images {
+                    .image1 {
+
+                        img {
+                            width: 400px;
+                            margin-top: -38px;
+                        }
+                    }
+
+                    .image2 {
+
+                        img {
+                            width: 200px;
+                            margin-left: -140px;
+                            margin-top: -42px;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        .right {
+            margin-left: 50px;
+
+            .name {
+                color: gray;
+                margin-left: 100px;
+
+                p {
+                    padding-top: 101px;
+                    font-family: fangsong;
+                }
+            }
+
+            .title {
+                margin-left: 100px;
+            }
+
+            .description {
+                margin-left: 100px;
+                margin-top: 20px;
+
+                p {
+                    &:nth-child(2) {
+                        margin-top: -10px;
+                    }
+
+                    &:nth-child(3) {
+                        margin-top: -10px;
+                    }
+                }
+            }
+
+            .button {
+                margin-top: 40px;
+                margin-left: 100px;
+
+                button {
+                    width: 200px;
+                    background: none;
+                    border: 1px solid black;
+
+                    p {
+                        padding-top: 13px;
+                        color: black;
+                        font-family: initial;
+                    }
+                }
+            }
+
+            .image {
+                margin-left: 320px;
+
+                img {
+                    width: 300px;
+                }
             }
         }
+    }
+}
+
+#images {
+    margin-top: 200px;
+
+    .image1 {
+        img {
+            width: 100%;
+        }
+    }
+
+    .image2 {
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .image3 {
+
+        img {
+            width: 100%;
+            margin-top: 23px;
+        }
+
+    }
+
+    .image4 {
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image5 {
+        margin-top: 20px;
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image6 {
+        margin-top: 26px;
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image7 {
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image8 {
+        margin-top: 17px;
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image9 {
+        margin-top: 26px;
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image10 {
+        margin-top: 26px;
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image11 {
+
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+    .image12 {
+        margin-top: 18px;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+}
+
+#brand {
+    margin-top: 150px;
+
+    img {
+        width: 100%;
+        height: 170px;
+        cursor: pointer;
+
+        &:hover {
+            margin-top: -20px;
+            transition: 0.5s;
+        }
+    }
+}
+
+#footer {
+    margin-top: 150px;
+    background-color: #282828;
+    width: 100%;
+    height: 450px;
+
+    .left1 {
+        margin-top: 80px;
+
+        h4 {
+            color: white;
+        }
+
+        .story {
+            margin-top: 40px;
+
+            p {
+                cursor: pointer;
+                color: rgb(153, 153, 153);
+                
+                &:hover {
+                    color: white;
+                    transition: 0.5s;
+                }
+            }
+        }
+
+    }
+
+    .left2 {
+        margin-top: 80px;
+
+        h4 {
+            color: white;
+        }
+
+        .story {
+            margin-top: 40px;
+
+            p {
+                cursor: pointer;
+                color: rgb(153, 153, 153);
+
+                &:nth-child(2) {
+                    margin-top: -15px;
+                }
+
+                &:nth-child(3) {
+                    margin-top: -15px;
+                }
+            }
+        }
+
+        .icons {
+            a {
+                i {
+                    color: rgb(153, 153, 153);
+
+                    &:hover {
+                        color: white;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .left3 {
+        margin-top: 80px;
+
+        h4 {
+            color: white;
+        }
+
+        .story {
+            margin-top: 40px;
+
+            p {
+                cursor: pointer;
+                color: rgb(153, 153, 153);
+
+                &:nth-child(2) {
+                    margin-top: -15px;
+                }
+            }
+        }
+        .email-input{
+            input{
+                background-color:#282828 ;
+                border: 1px solid rgb(153, 153, 153) ;
+                width: 260px;
+                height: 50px;
+            }
+        }
+
+    }
+    .right {
+        margin-top: 80px;
+
+        h4 {
+            color: white;
+        }
+
+        .story {
+            margin-top: 40px;
+
+            
+        }
+       
+
     }
 }
