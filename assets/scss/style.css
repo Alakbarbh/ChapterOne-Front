@@ -168,6 +168,10 @@
   left: 160px;
   bottom: 150px;
 }
+#slider .swiper-slide .shop:hover {
+  background-color: rgb(143, 1, 1);
+  transition: 0.5s;
+}
 #slider p {
   position: absolute;
   display: inline-block;
@@ -271,13 +275,19 @@
   border: none;
   margin-left: 167px;
 }
+#products .show-more {
+  text-align: center;
+  margin-top: 30px;
+}
+#products .show-more button {
+  width: 150px;
+}
 
 #our-services {
   margin-top: 100px;
 }
 #our-services .service .background-image {
   height: 420px;
-  background-image: url(../images/home/our-service.jpg);
 }
 #our-services .service .background-image .icon {
   text-align: center;
@@ -307,6 +317,13 @@
   width: 200px;
   background: none;
   border: 1px solid white;
+}
+#our-services .service .background-image .button button:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+#our-services .service .background-image .button button:hover p {
+  color: #000;
 }
 #our-services .service .background-image .button button p {
   padding-top: 13px;
@@ -369,7 +386,6 @@
   margin-top: 150px;
 }
 #autobiography1 .autobiography1 {
-  background-image: url(../images/home/authobiography-backgorund.jpg);
   width: 100%;
   height: 500px;
   display: flex;
@@ -404,6 +420,13 @@
   background: none;
   border: 1px solid black;
 }
+#autobiography1 .autobiography1 .left .button button:hover {
+  background-color: #282828;
+  transition: 0.5s;
+}
+#autobiography1 .autobiography1 .left .button button:hover p {
+  color: white;
+}
 #autobiography1 .autobiography1 .left .button button p {
   padding-top: 13px;
   color: black;
@@ -416,7 +439,6 @@
   width: 170px;
 }
 #autobiography1 .autobiography1 .right {
-  background-image: url(../images/home/zerler.png);
   width: 200px;
   height: 100%;
 }
@@ -444,7 +466,6 @@
   display: flex;
 }
 #autobiography2 .autobiography2 .left .backgrounds .backgorund-image {
-  background-image: url(../images/home/background-image-2.png);
   width: 200px;
   height: 500px;
 }
@@ -490,6 +511,13 @@
   background: none;
   border: 1px solid black;
 }
+#autobiography2 .autobiography2 .right .button button:hover {
+  background-color: #282828;
+  transition: 0.5s;
+}
+#autobiography2 .autobiography2 .right .button button:hover p {
+  color: white;
+}
 #autobiography2 .autobiography2 .right .button button p {
   padding-top: 13px;
   color: black;
@@ -505,63 +533,133 @@
 #images {
   margin-top: 200px;
 }
+#images .image1 {
+  overflow: hidden;
+}
 #images .image1 img {
   width: 100%;
 }
+#images .image1 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#images .image2 {
+  overflow: hidden;
+}
 #images .image2 img {
   width: 100%;
+}
+#images .image2 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#images .image3 {
+  overflow: hidden;
 }
 #images .image3 img {
   width: 100%;
   margin-top: 23px;
 }
+#images .image3 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image4 {
   margin-top: 20px;
+  overflow: hidden;
 }
 #images .image4 img {
   width: 100%;
 }
+#images .image4 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image5 {
   margin-top: 20px;
+  overflow: hidden;
 }
 #images .image5 img {
   width: 100%;
 }
+#images .image5 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image6 {
   margin-top: 26px;
+  overflow: hidden;
 }
 #images .image6 img {
   width: 100%;
 }
+#images .image6 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#images .image7 {
+  overflow: hidden;
+}
 #images .image7 img {
   width: 100%;
 }
+#images .image7 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image8 {
   margin-top: 17px;
+  overflow: hidden;
 }
 #images .image8 img {
   width: 100%;
 }
+#images .image8 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image9 {
   margin-top: 26px;
+  overflow: hidden;
 }
 #images .image9 img {
   width: 100%;
 }
+#images .image9 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image10 {
   margin-top: 26px;
+  overflow: hidden;
 }
 #images .image10 img {
   width: 100%;
 }
+#images .image10 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#images .image11 {
+  overflow: hidden;
+}
 #images .image11 img {
   width: 100%;
 }
+#images .image11 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
 #images .image12 {
+  overflow: hidden;
   margin-top: 18px;
 }
-#images img {
+#images .image12 img {
   width: 100%;
+}
+#images .image12 img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 #brand {
@@ -656,4 +754,19 @@
 }
 #footer .right .story {
   margin-top: 40px;
+}
+#footer .right .story .images1 {
+  display: flex;
+  gap: 10px;
+}
+#footer .right .story .images1 img {
+  width: 100%;
+}
+#footer .right .story .images2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+#footer .right .story .images2 img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
