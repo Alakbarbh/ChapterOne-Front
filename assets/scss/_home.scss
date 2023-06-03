@@ -267,6 +267,12 @@
 #products {
     margin-top: 150px;
 
+    .filterDiv {}
+
+    .show {
+        display: block;
+    }
+
     .category {
         ul {
             display: flex;
