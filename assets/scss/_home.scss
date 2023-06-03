@@ -204,7 +204,8 @@
             height: 43px;
             left: 160px;
             bottom: 150px;
-            &:hover{
+
+            &:hover {
                 background-color: rgb(143, 1, 1);
                 transition: 0.5s;
             }
@@ -345,10 +346,12 @@
             }
         }
     }
-    .show-more{
+
+    .show-more {
         text-align: center;
         margin-top: 30px;
-        button{
+
+        button {
             width: 150px;
         }
     }
@@ -362,7 +365,7 @@
 
         .background-image {
             height: 420px;
-            
+
 
             .icon {
                 text-align: center;
@@ -389,7 +392,10 @@
                 text-align: center;
                 font-family: serif;
 
-                h3 {}
+                h3 {
+                    width: 600px;
+                    margin-left: 350px;
+                }
             }
 
             .button {
@@ -400,10 +406,12 @@
                     width: 200px;
                     background: none;
                     border: 1px solid white;
-                    &:hover{
+
+                    &:hover {
                         background-color: white;
                         transition: 0.5s;
-                        p{
+
+                        p {
                             color: #000;
                         }
                     }
@@ -446,10 +454,8 @@
 
             p {
                 font-size: 18px;
-
-                &:nth-child(2) {
-                    margin-top: -12px;
-                }
+                width: 567px;
+                margin-left: 300px;
             }
         }
 
@@ -478,14 +484,9 @@
                 margin-left: -22px;
 
                 p {
-                    &:nth-child(2) {
-                        margin-left: 15px;
-                    }
-
-                    &:nth-child(3) {
-                        margin-left: 56px;
-                    }
+                    width: 250px;
                 }
+
             }
         }
     }
@@ -519,13 +520,7 @@
                 margin-top: 20px;
 
                 p {
-                    &:nth-child(2) {
-                        margin-top: -10px;
-                    }
-
-                    &:nth-child(3) {
-                        margin-top: -10px;
-                    }
+                    width: 400px;
                 }
             }
 
@@ -537,10 +532,12 @@
                     width: 200px;
                     background: none;
                     border: 1px solid black;
-                    &:hover{
+
+                    &:hover {
                         background-color: #282828;
                         transition: 0.5s;
-                        p{
+
+                        p {
                             color: white;
                         }
                     }
@@ -602,7 +599,7 @@
                 display: flex;
 
                 .backgorund-image {
-                    
+
                     width: 200px;
                     height: 500px;
                 }
@@ -652,13 +649,7 @@
                 margin-top: 20px;
 
                 p {
-                    &:nth-child(2) {
-                        margin-top: -10px;
-                    }
-
-                    &:nth-child(3) {
-                        margin-top: -10px;
-                    }
+                    width: 400px;
                 }
             }
 
@@ -670,10 +661,12 @@
                     width: 200px;
                     background: none;
                     border: 1px solid black;
-                    &:hover{
-                        background-color:#282828 ;
+
+                    &:hover {
+                        background-color: #282828;
                         transition: 0.5s;
-                        p{
+
+                        p {
                             color: white;
                         }
                     }
@@ -702,10 +695,12 @@
 
     .image1 {
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -713,10 +708,12 @@
 
     .image2 {
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -725,11 +722,13 @@
 
     .image3 {
         overflow: hidden;
+
         img {
             width: 100%;
             margin-top: 23px;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -739,10 +738,12 @@
     .image4 {
         margin-top: 20px;
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -752,10 +753,12 @@
     .image5 {
         margin-top: 20px;
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -765,10 +768,12 @@
     .image6 {
         margin-top: 26px;
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -777,10 +782,12 @@
 
     .image7 {
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -790,10 +797,12 @@
     .image8 {
         margin-top: 17px;
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -803,10 +812,12 @@
     .image9 {
         margin-top: 26px;
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -816,10 +827,12 @@
     .image10 {
         margin-top: 26px;
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -828,10 +841,12 @@
 
     .image11 {
         overflow: hidden;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
@@ -841,16 +856,18 @@
     .image12 {
         overflow: hidden;
         margin-top: 18px;
+
         img {
             width: 100%;
-            &:hover{
-                transform:scale(1.1);
+
+            &:hover {
+                transform: scale(1.1);
                 transition: 0.5s;
             }
         }
     }
 
-   
+
 
 }
 
@@ -986,10 +1003,12 @@
                     width: 100%;
                 }
             }
+
             .images2 {
                 display: flex;
                 gap: 10px;
                 margin-top: 10px;
+
                 img {
                     width: 100%;
                 }
@@ -998,5 +1017,20 @@
         }
 
 
+    }
+
+    .btn {
+        margin-left: 350px;
+
+        #topbtn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+
+            i {
+                color: #909090;
+                font-size: 23px;
+            }
+        }
     }
 }

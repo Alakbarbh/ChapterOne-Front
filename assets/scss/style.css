@@ -309,6 +309,10 @@
   text-align: center;
   font-family: serif;
 }
+#our-services .service .background-image .description h3 {
+  width: 600px;
+  margin-left: 350px;
+}
 #our-services .service .background-image .button {
   margin-top: 40px;
   text-align: center;
@@ -351,9 +355,8 @@
 }
 #authors .authors .description p {
   font-size: 18px;
-}
-#authors .authors .description p:nth-child(2) {
-  margin-top: -12px;
+  width: 567px;
+  margin-left: 300px;
 }
 #authors .authors .author {
   margin-top: 50px;
@@ -375,11 +378,8 @@
 #authors .authors .author .author-description {
   margin-left: -22px;
 }
-#authors .authors .author .author-description p:nth-child(2) {
-  margin-left: 15px;
-}
-#authors .authors .author .author-description p:nth-child(3) {
-  margin-left: 56px;
+#authors .authors .author .author-description p {
+  width: 250px;
 }
 
 #autobiography1 {
@@ -405,11 +405,8 @@
   margin-left: 100px;
   margin-top: 20px;
 }
-#autobiography1 .autobiography1 .left .description p:nth-child(2) {
-  margin-top: -10px;
-}
-#autobiography1 .autobiography1 .left .description p:nth-child(3) {
-  margin-top: -10px;
+#autobiography1 .autobiography1 .left .description p {
+  width: 400px;
 }
 #autobiography1 .autobiography1 .left .button {
   margin-top: 40px;
@@ -496,11 +493,8 @@
   margin-left: 100px;
   margin-top: 20px;
 }
-#autobiography2 .autobiography2 .right .description p:nth-child(2) {
-  margin-top: -10px;
-}
-#autobiography2 .autobiography2 .right .description p:nth-child(3) {
-  margin-top: -10px;
+#autobiography2 .autobiography2 .right .description p {
+  width: 400px;
 }
 #autobiography2 .autobiography2 .right .button {
   margin-top: 40px;
@@ -769,4 +763,16 @@
 }
 #footer .right .story .images2 img {
   width: 100%;
+}
+#footer .btn {
+  margin-left: 350px;
+}
+#footer .btn #topbtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#footer .btn #topbtn i {
+  color: #909090;
+  font-size: 23px;
 }/*# sourceMappingURL=style.css.map */
