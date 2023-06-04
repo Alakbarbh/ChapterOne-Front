@@ -494,8 +494,6 @@
 #promo-products {
     background-color: #FBF9F6;
     margin-top: 150px;
-    width: 100%;
-    height: 700px;
 
     .title {
         text-align: center;
@@ -519,16 +517,60 @@
         text-align: center;
         margin-left: 400px;
         margin-top: 20px;
+
         p {
             color: gray;
             font-family: monospace;
             width: 511px;
         }
     }
+
+    .box-area {
+        .image {
+            width: 250px;
+            margin-left: 25px;
+          
+
+            img {
+                width: 100%;
+                cursor: pointer;
+            }
+
+        }
+
+        .name {
+           opacity: 0;
+           transition: .4s;
+            h5 {
+                margin-top: -40px;
+            }
+        }
+
+        .price {
+            transition: .4s;
+            text-align: center !important;
+            opacity: 0;
+        }
+
+        &:hover {
+
+            .name,
+            .price {
+               opacity: 1;
+            }
+        }
+    }
+
 }
 
+.slick-dots{
+    display: none !important;
+}
+
+
+
+
 #footer {
-    margin-top: 150px;
     background-color: #282828;
     width: 100%;
     height: 450px;

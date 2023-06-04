@@ -215,13 +215,20 @@
 #products {
   margin-top: 150px;
 }
-#products .show {
+#products .container .row .filterDiv {
+  display: none;
+}
+#products .container .row .show {
   display: block;
 }
 #products .category ul {
   display: flex;
   gap: 10px;
   justify-content: center;
+}
+#products .category ul .active {
+  transition: 1s;
+  background-color: #198754;
 }
 #products .category ul li {
   list-style: none;
@@ -230,10 +237,11 @@
   text-align: center;
   height: 40px;
   padding-top: 7px;
+  cursor: pointer;
 }
 #products .category ul li a {
   text-decoration: none;
-  color: #000;
+  color: black;
 }
 #products .products {
   width: 100%;
@@ -1123,8 +1131,6 @@
 #promo-products {
   background-color: #FBF9F6;
   margin-top: 150px;
-  width: 100%;
-  height: 700px;
 }
 #promo-products .title {
   text-align: center;
@@ -1150,9 +1156,36 @@
   font-family: monospace;
   width: 511px;
 }
+#promo-products .box-area .image {
+  width: 250px;
+  margin-left: 25px;
+}
+#promo-products .box-area .image img {
+  width: 100%;
+  cursor: pointer;
+}
+#promo-products .box-area .name {
+  opacity: 0;
+  transition: 0.4s;
+}
+#promo-products .box-area .name h5 {
+  margin-top: -40px;
+}
+#promo-products .box-area .price {
+  transition: 0.4s;
+  text-align: center !important;
+  opacity: 0;
+}
+#promo-products .box-area:hover .name,
+#promo-products .box-area:hover .price {
+  opacity: 1;
+}
+
+.slick-dots {
+  display: none !important;
+}
 
 #footer {
-  margin-top: 150px;
   background-color: #282828;
   width: 100%;
   height: 450px;
