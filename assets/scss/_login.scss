@@ -212,6 +212,9 @@
 
         .form-check {
             margin-top: 33px;
+            input{
+                cursor: pointer;
+            }
         }
         .login-button{
             margin-left: 50px;
@@ -233,6 +236,10 @@
         a{
             text-decoration: none;
             color: black;
+            &:hover{
+                color:rgb(241, 6, 6) ;
+                transition: 0.5s;
+            }
         }
     }
     .account{

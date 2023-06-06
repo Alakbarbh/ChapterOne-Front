@@ -144,7 +144,143 @@
     }
 }
 
+#background {
+    .background-images {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
 
+        h2 {
+            text-align: center;
+            color: white;
+            padding-top: 120px;
+            font-family: monospace;
+        }
+    }
+
+}
+
+#login-form {
+    margin-top: 100px;
+
+    .login {
+        h2 {
+            font-family: monospace;
+        }
+    }
+
+    .first-name-label {
+        margin-top: 30px;
+
+        label {
+            color: gray;
+        }
+    }
+
+    .first-name-input {
+        margin-top: 10px;
+
+        input {
+            width: 100%;
+            height: 50px;
+            border: 1px solid gray;
+            outline: none;
+        }
+    }
+
+    .last-name-label {
+        margin-top: 30px;
+
+        label {
+            color: gray;
+        }
+    }
+
+    .last-name-input {
+        margin-top: 10px;
+
+        input {
+            width: 100%;
+            height: 50px;
+            border: 1px solid gray;
+            outline: none;
+        }
+    }
+
+    .email-address-label {
+        margin-top: 30px;
+
+        label {
+            color: gray;
+        }
+    }
+
+    .email-address-input {
+        margin-top: 10px;
+
+        input {
+            width: 100%;
+            height: 50px;
+            border: 1px solid gray;
+            outline: none;
+        }
+    }
+
+    .password-label {
+        margin-top: 30px;
+
+        label {
+            color: gray;
+        }
+    }
+
+    .password-input {
+        margin-top: 10px;
+
+        input {
+            width: 100%;
+            height: 50px;
+            border: 1px solid gray;
+            outline: none;
+        }
+    }
+
+    .confirm-password-label {
+        margin-top: 30px;
+
+        label {
+            color: gray;
+        }
+    }
+
+    .confirm-password-input {
+        margin-top: 10px;
+
+        input {
+            width: 100%;
+            height: 50px;
+            border: 1px solid gray;
+            outline: none;
+        }
+    }
+
+    .register {
+        .register-button{
+            margin-top: 20px;
+            button{
+                width: 130px;
+                height: 50px;
+                background-color: rgb(241, 6, 6);
+                color: white;
+                &:hover{
+                    background-color:rgb(172, 2, 2) ;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+
+}
 
 #footer {
     margin-top: 150px;
@@ -295,18 +431,3 @@
     }
 }
 
-.divider:after,
-.divider:before {
-content: "";
-flex: 1;
-height: 1px;
-background: #eee;
-}
-.h-custom {
-height: calc(100% - 73px);
-}
-@media (max-width: 450px) {
-.h-custom {
-height: 100%;
-}
-}

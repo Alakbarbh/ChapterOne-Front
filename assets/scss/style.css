@@ -1407,6 +1407,178 @@
   margin-top: 13px;
 }
 
+#background .background-images {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#background .background-images h2 {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+  font-family: monospace;
+}
+
+#blog {
+  margin-top: 150px;
+}
+#blog .section-1 .image-1 a img {
+  width: 100%;
+  height: 500px;
+}
+#blog .section-1 .name-date {
+  display: flex;
+  margin-top: 20px;
+}
+#blog .section-1 .name-date .name p {
+  color: gray;
+  font-family: initial;
+  cursor: pointer;
+}
+#blog .section-1 .name-date .name p:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#blog .section-1 .name-date .date p {
+  color: gray;
+  font-family: initial;
+  cursor: pointer;
+}
+#blog .section-1 .name-date .date p:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#blog .section-1 .title a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+#blog .section-1 .title a:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#blog .section-1 .description {
+  margin-top: 10px;
+}
+#blog .section-1 .description p {
+  color: gray;
+}
+#blog .section-1 .read-more {
+  width: 100px;
+}
+#blog .section-1 .read-more a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+}
+#blog .section-1 .read-more a:hover {
+  color: black;
+  transition: 0.5s;
+}
+#blog .section-1 .read-more a::after {
+  margin-top: 10px;
+  content: "";
+  position: relative;
+  display: block;
+  top: -10px;
+  width: 100%;
+  height: 1px;
+  background-color: #858483;
+}
+#blog .section-2 {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #fbf9f6;
+  height: 300px;
+}
+#blog .section-2 .sign h1 {
+  color: #d14031;
+  text-align: center;
+  font-size: 100px;
+}
+#blog .section-2 .description {
+  text-align: center;
+  width: 620px;
+  margin-left: 125px;
+}
+#blog .section-2 .description p {
+  font-family: cursive;
+}
+#blog .section-2 .author-name {
+  text-align: center;
+  margin-top: 20px;
+}
+#blog .section-2 .author-name p {
+  color: gray;
+  font-family: cursive;
+}
+#blog .section-3 {
+  margin-top: 100px;
+}
+#blog .section-3 .image-1 a img {
+  width: 100%;
+  height: 500px;
+}
+#blog .section-3 .name-date {
+  display: flex;
+  margin-top: 20px;
+}
+#blog .section-3 .name-date .name p {
+  color: gray;
+  font-family: initial;
+  cursor: pointer;
+}
+#blog .section-3 .name-date .name p:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#blog .section-3 .name-date .date p {
+  color: gray;
+  font-family: initial;
+  cursor: pointer;
+}
+#blog .section-3 .name-date .date p:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#blog .section-3 .title a {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+#blog .section-3 .title a:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#blog .section-3 .description {
+  margin-top: 10px;
+}
+#blog .section-3 .description p {
+  color: gray;
+}
+#blog .section-3 .read-more {
+  width: 100px;
+}
+#blog .section-3 .read-more a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+}
+#blog .section-3 .read-more a:hover {
+  color: black;
+  transition: 0.5s;
+}
+#blog .section-3 .read-more a::after {
+  margin-top: 10px;
+  content: "";
+  position: relative;
+  display: block;
+  top: -10px;
+  width: 100%;
+  height: 1px;
+  background-color: #858483;
+}
+
 #footer {
   margin-top: 150px;
   background-color: #282828;
@@ -2645,6 +2817,9 @@
 #login-form .remenber-login .form-check {
   margin-top: 33px;
 }
+#login-form .remenber-login .form-check input {
+  cursor: pointer;
+}
 #login-form .remenber-login .login-button {
   margin-left: 50px;
   margin-top: 20px;
@@ -2665,6 +2840,10 @@
 #login-form .forgot-password a {
   text-decoration: none;
   color: black;
+}
+#login-form .forgot-password a:hover {
+  color: rgb(241, 6, 6);
+  transition: 0.5s;
 }
 #login-form .account {
   display: flex;
@@ -2900,6 +3079,113 @@
   margin-top: 13px;
 }
 
+#background .background-images {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#background .background-images h2 {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+  font-family: monospace;
+}
+
+#login-form {
+  margin-top: 100px;
+}
+#login-form .login h2 {
+  font-family: monospace;
+}
+#login-form .first-name-label {
+  margin-top: 30px;
+}
+#login-form .first-name-label label {
+  color: gray;
+}
+#login-form .first-name-input {
+  margin-top: 10px;
+}
+#login-form .first-name-input input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  outline: none;
+}
+#login-form .last-name-label {
+  margin-top: 30px;
+}
+#login-form .last-name-label label {
+  color: gray;
+}
+#login-form .last-name-input {
+  margin-top: 10px;
+}
+#login-form .last-name-input input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  outline: none;
+}
+#login-form .email-address-label {
+  margin-top: 30px;
+}
+#login-form .email-address-label label {
+  color: gray;
+}
+#login-form .email-address-input {
+  margin-top: 10px;
+}
+#login-form .email-address-input input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  outline: none;
+}
+#login-form .password-label {
+  margin-top: 30px;
+}
+#login-form .password-label label {
+  color: gray;
+}
+#login-form .password-input {
+  margin-top: 10px;
+}
+#login-form .password-input input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  outline: none;
+}
+#login-form .confirm-password-label {
+  margin-top: 30px;
+}
+#login-form .confirm-password-label label {
+  color: gray;
+}
+#login-form .confirm-password-input {
+  margin-top: 10px;
+}
+#login-form .confirm-password-input input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid gray;
+  outline: none;
+}
+#login-form .register .register-button {
+  margin-top: 20px;
+}
+#login-form .register .register-button button {
+  width: 130px;
+  height: 50px;
+  background-color: rgb(241, 6, 6);
+  color: white;
+}
+#login-form .register .register-button button:hover {
+  background-color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+
 #footer {
   margin-top: 150px;
   background-color: #282828;
@@ -3006,22 +3292,4 @@
 #footer .btn #topbtn i {
   color: #909090;
   font-size: 23px;
-}
-
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
-}
-
-.h-custom {
-  height: calc(100% - 73px);
-}
-
-@media (max-width: 450px) {
-  .h-custom {
-    height: 100%;
-  }
 }/*# sourceMappingURL=style.css.map */

@@ -144,7 +144,209 @@
     }
 }
 
+#background {
+    .background-images {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
 
+        h2 {
+            text-align: center;
+            color: white;
+            padding-top: 120px;
+            font-family: monospace;
+        }
+    }
+
+}
+
+#blog{
+    margin-top: 150px;
+    .section-1{
+        .image-1{
+            a{
+                img{
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+        }
+        .name-date{
+            display: flex;
+            margin-top: 20px;
+            .name{
+                p{
+                    color: gray;
+                    font-family: initial;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(172, 2, 2);
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .date{
+                p{
+                    color: gray;
+                    font-family: initial;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(172, 2, 2);
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+        .title{
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 35px;
+                &:hover{
+                    color: rgb(172, 2, 2);
+                    transition: 0.5s;
+                }
+            }
+        }
+        .description{
+            margin-top: 10px;
+            p{
+                color: gray;
+            }
+        }
+        .read-more{
+            width: 100px;
+            a{
+                text-decoration: none;
+                color: rgb(83, 83, 83);
+                font-size: 20px;
+                &:hover{
+                    color: black;
+                    transition: 0.5s;
+                }
+    
+                &::after{
+                    margin-top: 10px;
+                    content: '';
+                    position: relative;
+                    display: block;
+                    top: -10px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #858483;
+                }
+            }
+        }
+    }
+    .section-2{
+        margin-top: 50px;
+        width: 100%;
+        background-color: #fbf9f6;
+        height: 300px;
+        .sign{
+            h1{
+                color: #d14031;
+                text-align: center;
+                font-size: 100px;
+            }
+        }
+        .description{
+            text-align: center;
+            width: 620px;
+            margin-left: 125px;
+            p{
+                font-family: cursive;
+            }
+        }
+        .author-name{
+            text-align: center;
+            margin-top: 20px;
+            p{
+                color: gray;
+                font-family: cursive;
+            }
+        }
+    }
+    .section-3{
+        margin-top: 100px;
+        .image-1{
+            a{
+                img{
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+            
+        }
+        .name-date{
+            display: flex;
+            margin-top: 20px;
+            .name{
+                p{
+                    color: gray;
+                    font-family: initial;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(172, 2, 2);
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .date{
+                p{
+                    color: gray;
+                    font-family: initial;
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(172, 2, 2);
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+        .title{
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 35px;
+                &:hover{
+                    color: rgb(172, 2, 2);
+                    transition: 0.5s;
+                }
+            }
+        }
+        .description{
+            margin-top: 10px;
+            p{
+                color: gray;
+            }
+        }
+        .read-more{
+            width: 100px;
+            a{
+                text-decoration: none;
+                color: rgb(83, 83, 83);
+                font-size: 20px;
+                &:hover{
+                    color: black;
+                    transition: 0.5s;
+                }
+    
+                &::after{
+                    margin-top: 10px;
+                    content: '';
+                    position: relative;
+                    display: block;
+                    top: -10px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #858483;
+                }
+            }
+        }
+    }
+    
+}
 
 #footer {
     margin-top: 150px;
