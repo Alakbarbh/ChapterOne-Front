@@ -31,12 +31,12 @@ $(document).ready(function () {
 
     $('.cartsss').slick({
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 4,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 800,
         responsive: [
             {
                 breakpoint: 1024,

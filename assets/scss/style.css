@@ -2395,6 +2395,10 @@
   color: gray;
   height: 50px;
 }
+#product-sidebar .results-sort .sort .form-select:focus {
+  box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.2117647059);
+}
 #product-sidebar .products {
   margin-top: 50px;
 }
@@ -2493,8 +2497,218 @@
   margin-top: 40px;
   font-weight: bold;
 }
-#product-sidebar .right-section .range input {
+#product-sidebar .right-section .filter h5 {
+  font-family: initial;
+}
+#product-sidebar .right-section .product-price {
+  font-family: "Poppins", sans-serif;
+}
+#product-sidebar .right-section .product-price .price-title {
+  padding: 2px 20px;
+}
+#product-sidebar .right-section .product-price .price-title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+#product-sidebar .right-section .product-price .price-filter .card {
+  border-radius: 5px;
+  padding: 0 20px 20px 20px;
+}
+#product-sidebar .right-section .product-price .price-filter h4 {
+  color: #000;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+#product-sidebar .right-section .product-price .price-filter .price-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+#product-sidebar .right-section .product-price .price-filter label {
+  font-size: 12px;
+  font-weight: 500;
+}
+#product-sidebar .right-section .product-price .price-filter p {
+  font-size: 16px;
+  font-weight: 600;
+}
+#product-sidebar .right-section .product-price .price-filter .range-slider {
+  position: relative;
+  margin: 15px 0 30px 0;
+}
+#product-sidebar .right-section .product-price .price-filter input[type=range] {
   width: 100%;
+  background: transparent;
+  position: absolute;
+  left: 0;
+}
+#product-sidebar .right-section .product-price .price-filter input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #36b37e;
+  cursor: pointer;
+  margin-top: -5px;
+  position: relative;
+  z-index: 1;
+}
+#product-sidebar .right-section .product-price .price-filter input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  background: #e8e8e8;
+  border-radius: 3px;
+  border: none;
+}
+#product-sidebar .right-section .borders {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+#product-sidebar .right-section .borders .border {
+  width: 100%;
+}
+#product-sidebar .right-section .logo {
+  margin-top: -18px;
+}
+#product-sidebar .right-section .logo span {
+  font-size: 20px;
+  margin-left: 107px;
+}
+#product-sidebar .right-section .top-5 {
+  margin-top: 20px;
+}
+#product-sidebar .right-section .top-5 h5 {
+  font-family: initial;
+}
+#product-sidebar .right-section .images {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+#product-sidebar .right-section .images img {
+  width: 41px;
+  height: 80px;
+}
+#product-sidebar .right-section .borders {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+#product-sidebar .right-section .borders .border {
+  width: 100%;
+}
+#product-sidebar .right-section .logo {
+  margin-top: -18px;
+}
+#product-sidebar .right-section .logo span {
+  font-size: 20px;
+  margin-left: 107px;
+}
+#product-sidebar .right-section .categories {
+  margin-top: 20px;
+}
+#product-sidebar .right-section .categories h5 {
+  font-family: initial;
+}
+#product-sidebar .right-section .product-categories {
+  margin-top: 15px;
+}
+#product-sidebar .right-section .product-categories .product-category {
+  display: flex;
+}
+#product-sidebar .right-section .product-categories .product-category span {
+  margin-left: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  color: gray;
+  cursor: pointer;
+}
+#product-sidebar .right-section .product-categories .product-category p {
+  font-family: "Josefin Sans", sans-serif;
+  color: gray;
+  cursor: pointer;
+}
+#product-sidebar .right-section .product-categories .product-category p:hover {
+  color: #d14031;
+  transition: 0.5s;
+}
+#product-sidebar .right-section .borders {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+#product-sidebar .right-section .borders .border {
+  width: 100%;
+}
+#product-sidebar .right-section .logo {
+  margin-top: -18px;
+}
+#product-sidebar .right-section .logo span {
+  font-size: 20px;
+  margin-left: 107px;
+}
+#product-sidebar .right-section .tags {
+  margin-top: 20px;
+}
+#product-sidebar .right-section .tags h5 {
+  font-family: initial;
+}
+#product-sidebar .right-section .tags-name {
+  margin-top: 15px;
+}
+#product-sidebar .right-section .tags-name p {
+  color: gray;
+  font-family: initial;
+  font-size: 20px;
+}
+#product-sidebar .right-section .tags-name p:hover {
+  color: #d14031;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#product-sidebar .right-section .instagram {
+  margin-top: 20px;
+}
+#product-sidebar .right-section .instagram h5 {
+  font-family: initial;
+}
+#product-sidebar .right-section .instagram-image {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+}
+#product-sidebar .right-section .instagram-image a img {
+  width: 100%;
+}
+#product-sidebar .right-section .socials {
+  margin-top: 20px;
+}
+#product-sidebar .right-section .socials h5 {
+  font-family: initial;
+}
+#product-sidebar .right-section .icons {
+  margin-left: -33px;
+  margin-top: 20px;
+}
+#product-sidebar .right-section .icons ul {
+  display: flex;
+  gap: 15px;
+}
+#product-sidebar .right-section .icons ul li {
+  list-style: none;
+}
+#product-sidebar .right-section .icons ul li a {
+  text-decoration: none;
+}
+#product-sidebar .right-section .icons ul li a i {
+  color: black;
+}
+#product-sidebar .right-section .icons ul li a i:hover {
+  color: #d14031;
+  transition: 0.5s;
 }
 
 #footer {
@@ -3220,6 +3434,10 @@
 #login-form .remenber-login .form-check input {
   cursor: pointer;
 }
+#login-form .remenber-login .form-check input:focus {
+  box-shadow: none;
+  border-color: rgba(128, 128, 128, 0.2117647059);
+}
 #login-form .remenber-login .login-button {
   margin-left: 50px;
   margin-top: 20px;
@@ -3227,8 +3445,10 @@
 #login-form .remenber-login .login-button button {
   width: 130px;
   height: 50px;
-  background-color: rgb(241, 6, 6);
+  background-color: #d14031;
   color: white;
+  border: none;
+  font-family: initial;
 }
 #login-form .remenber-login .login-button button:hover {
   background-color: rgb(172, 2, 2);
@@ -3491,97 +3711,99 @@
   font-family: monospace;
 }
 
-#login-form {
+#register-form {
   margin-top: 100px;
 }
-#login-form .login h2 {
+#register-form .login h2 {
   font-family: monospace;
 }
-#login-form .first-name-label {
+#register-form .first-name-label {
   margin-top: 30px;
 }
-#login-form .first-name-label label {
+#register-form .first-name-label label {
   color: gray;
 }
-#login-form .first-name-input {
+#register-form .first-name-input {
   margin-top: 10px;
 }
-#login-form .first-name-input input {
+#register-form .first-name-input input {
   width: 100%;
   height: 50px;
   border: 1px solid gray;
   outline: none;
 }
-#login-form .last-name-label {
+#register-form .last-name-label {
   margin-top: 30px;
 }
-#login-form .last-name-label label {
+#register-form .last-name-label label {
   color: gray;
 }
-#login-form .last-name-input {
+#register-form .last-name-input {
   margin-top: 10px;
 }
-#login-form .last-name-input input {
+#register-form .last-name-input input {
   width: 100%;
   height: 50px;
   border: 1px solid gray;
   outline: none;
 }
-#login-form .email-address-label {
+#register-form .email-address-label {
   margin-top: 30px;
 }
-#login-form .email-address-label label {
+#register-form .email-address-label label {
   color: gray;
 }
-#login-form .email-address-input {
+#register-form .email-address-input {
   margin-top: 10px;
 }
-#login-form .email-address-input input {
+#register-form .email-address-input input {
   width: 100%;
   height: 50px;
   border: 1px solid gray;
   outline: none;
 }
-#login-form .password-label {
+#register-form .password-label {
   margin-top: 30px;
 }
-#login-form .password-label label {
+#register-form .password-label label {
   color: gray;
 }
-#login-form .password-input {
+#register-form .password-input {
   margin-top: 10px;
 }
-#login-form .password-input input {
+#register-form .password-input input {
   width: 100%;
   height: 50px;
   border: 1px solid gray;
   outline: none;
 }
-#login-form .confirm-password-label {
+#register-form .confirm-password-label {
   margin-top: 30px;
 }
-#login-form .confirm-password-label label {
+#register-form .confirm-password-label label {
   color: gray;
 }
-#login-form .confirm-password-input {
+#register-form .confirm-password-input {
   margin-top: 10px;
 }
-#login-form .confirm-password-input input {
+#register-form .confirm-password-input input {
   width: 100%;
   height: 50px;
   border: 1px solid gray;
   outline: none;
 }
-#login-form .register .register-button {
+#register-form .register .register-button {
   margin-top: 20px;
 }
-#login-form .register .register-button button {
+#register-form .register .register-button button {
   width: 130px;
   height: 50px;
-  background-color: rgb(241, 6, 6);
+  background-color: #d14031;
   color: white;
+  font-family: initial;
+  border: none;
 }
-#login-form .register .register-button button:hover {
+#register-form .register .register-button button:hover {
   background-color: rgb(172, 2, 2);
   transition: 0.5s;
 }
