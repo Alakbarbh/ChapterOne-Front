@@ -412,7 +412,47 @@
         }
     }
 
-    .section-5 {}
+    .section-5 {
+        margin-top: 100px;
+        .pagination{
+            justify-content: center;
+            .left-icon{
+                i{
+                    color: gray;
+                    cursor: pointer;
+                    &:hover{
+                        color: black;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .number{
+                display: flex;
+                gap: 15px;
+                margin-left: 15px;
+                p{
+                    color: gray;
+                    cursor: pointer;
+                    font-family: math;
+                    &:hover{
+                        color: black;
+                        transition: 0.5s;
+                    }
+                }
+            }
+            .right-icon{
+                margin-left: 15px;
+                i{
+                    color: gray;
+                    cursor: pointer;
+                    &:hover{
+                        color: black;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
 
     .section-6 {
         margin-left: 100px;

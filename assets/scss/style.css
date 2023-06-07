@@ -1605,6 +1605,45 @@
   color: #d14031;
   transition: 0.5s;
 }
+#blog .section-5 {
+  margin-top: 100px;
+}
+#blog .section-5 .pagination {
+  justify-content: center;
+}
+#blog .section-5 .pagination .left-icon i {
+  color: gray;
+  cursor: pointer;
+}
+#blog .section-5 .pagination .left-icon i:hover {
+  color: black;
+  transition: 0.5s;
+}
+#blog .section-5 .pagination .number {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+#blog .section-5 .pagination .number p {
+  color: gray;
+  cursor: pointer;
+  font-family: math;
+}
+#blog .section-5 .pagination .number p:hover {
+  color: black;
+  transition: 0.5s;
+}
+#blog .section-5 .pagination .right-icon {
+  margin-left: 15px;
+}
+#blog .section-5 .pagination .right-icon i {
+  color: gray;
+  cursor: pointer;
+}
+#blog .section-5 .pagination .right-icon i:hover {
+  color: black;
+  transition: 0.5s;
+}
 #blog .section-6 {
   margin-left: 100px;
 }
@@ -2323,6 +2362,139 @@
 }
 #navbar .login-register .border {
   margin-top: 13px;
+}
+
+#background .background-images {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+#background .background-images h2 {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+  font-family: monospace;
+}
+
+#product-sidebar {
+  margin-top: 100px;
+}
+#product-sidebar .results-sort {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#product-sidebar .results-sort .results p {
+  color: gray;
+}
+#product-sidebar .results-sort .sort {
+  width: 250px !important;
+}
+#product-sidebar .results-sort .sort .form-select {
+  border-radius: inherit;
+  color: gray;
+  height: 50px;
+}
+#product-sidebar .products {
+  margin-top: 50px;
+}
+#product-sidebar .products .image img {
+  width: 100%;
+}
+#product-sidebar .products .name {
+  margin-top: 10px;
+}
+#product-sidebar .products .name a {
+  text-decoration: none;
+  color: gray;
+  font-family: monospace;
+}
+#product-sidebar .products .name a:hover {
+  color: red;
+  transition: 0.8s;
+}
+#product-sidebar .products .category-name a {
+  text-decoration: none;
+  color: black;
+  font-family: initial;
+  font-size: 24px;
+}
+#product-sidebar .products .category-name a:hover {
+  color: red;
+  transition: 0.8s;
+}
+#product-sidebar .products .price-button {
+  display: flex;
+  margin-top: 15px;
+}
+#product-sidebar .products .price-button p {
+  color: gray;
+  font-family: monospace;
+}
+#product-sidebar .products .price-button button {
+  border: none;
+  margin-left: 167px;
+}
+#product-sidebar .pagination {
+  justify-content: center;
+  margin-top: 100px;
+}
+#product-sidebar .pagination .left-icon i {
+  color: gray;
+  cursor: pointer;
+}
+#product-sidebar .pagination .left-icon i:hover {
+  color: black;
+  transition: 0.5s;
+}
+#product-sidebar .pagination .number {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+#product-sidebar .pagination .number p {
+  color: gray;
+  cursor: pointer;
+  font-family: math;
+}
+#product-sidebar .pagination .number p:hover {
+  color: black;
+  transition: 0.5s;
+}
+#product-sidebar .pagination .right-icon {
+  margin-left: 15px;
+}
+#product-sidebar .pagination .right-icon i {
+  color: gray;
+  cursor: pointer;
+}
+#product-sidebar .pagination .right-icon i:hover {
+  color: black;
+  transition: 0.5s;
+}
+#product-sidebar .right-section {
+  margin-left: 80px;
+}
+#product-sidebar .right-section .search input {
+  height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.2117647059);
+  width: 100%;
+}
+#product-sidebar .right-section .search input::-moz-placeholder {
+  padding-left: 10px;
+}
+#product-sidebar .right-section .search input:-ms-input-placeholder {
+  padding-left: 10px;
+}
+#product-sidebar .right-section .search input::placeholder {
+  padding-left: 10px;
+}
+#product-sidebar .right-section .filter {
+  margin-top: 40px;
+  font-weight: bold;
+}
+#product-sidebar .right-section .range input {
+  width: 100%;
 }
 
 #footer {

@@ -144,6 +144,165 @@
     }
 }
 
+#background {
+    .background-images {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+
+        h2 {
+            text-align: center;
+            color: white;
+            padding-top: 120px;
+            font-family: monospace;
+        }
+    }
+
+}
+
+#product-sidebar {
+    margin-top: 100px;
+
+    .results-sort {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        .results {
+            p {
+                color: gray;
+            }
+        }
+
+        .sort {
+            width: 250px !important;
+            .form-select{
+                border-radius: inherit;
+               color: gray;
+               height: 50px;
+            }
+        }
+    }
+
+    .products {
+        margin-top: 50px;
+        .image {
+            img {
+                width: 100%;
+            }
+        }
+        .name {
+            margin-top: 10px;
+    
+            a {
+                text-decoration: none;
+                color: gray;
+                font-family: monospace;
+    
+                &:hover {
+                    color: red;
+                    transition: 0.8s;
+                }
+            }
+        }
+    
+        .category-name {
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: initial;
+                font-size: 24px;
+    
+                &:hover {
+                    color: red;
+                    transition: 0.8s;
+                }
+            }
+        }
+    
+        .price-button {
+            display: flex;
+            margin-top: 15px;
+    
+            p {
+                color: gray;
+                font-family: monospace;
+            }
+    
+            button {
+                border: none;
+                margin-left: 167px;
+            }
+        }
+    }
+    .pagination{
+        justify-content: center;
+        margin-top: 100px;
+        .left-icon{
+            i{
+                color: gray;
+                cursor: pointer;
+                &:hover{
+                    color: black;
+                    transition: 0.5s;
+                }
+            }
+        }
+        .number{
+            display: flex;
+            gap: 15px;
+            margin-left: 15px;
+            p{
+                color: gray;
+                cursor: pointer;
+                font-family: math;
+                &:hover{
+                    color: black;
+                    transition: 0.5s;
+                }
+            }
+        }
+        .right-icon{
+            margin-left: 15px;
+            i{
+                color: gray;
+                cursor: pointer;
+                &:hover{
+                    color: black;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+
+
+    .right-section{
+        margin-left: 80px;
+        .search{
+            input{
+                height: 50px;
+                border: 1px solid #80808036;
+                width: 100%;
+                &::placeholder{
+                    padding-left: 10px;
+                }
+                
+            }
+        }
+        .filter{
+            margin-top: 40px;
+            font-weight: bold;
+        }
+        .range{
+            input{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
 
 
 #footer {
