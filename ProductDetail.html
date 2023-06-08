@@ -152,7 +152,9 @@
                                 </div>
 
                                 <div class="comment">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
                                 </div>
 
                                 <div class="logo-name">
@@ -174,7 +176,9 @@
                                 </div>
 
                                 <div class="comment">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
                                 </div>
 
                                 <div class="logo-name">
@@ -196,7 +200,9 @@
                                 </div>
 
                                 <div class="comment">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea."</p>
                                 </div>
 
                                 <div class="logo-name">
@@ -215,7 +221,153 @@
             </div>
         </section>
         <section id="review-area">
+            <div class="container">
+                <div class="tab-menu">
+                    <ul id="myBtnContainer">
+                        <li class="item1 active" data-id="description"><a href="#" class="btn-tab"
+                                onclick="filterSelection('description')">Description</a></li>
+                        <li class="item2" data-id="additional">
+                            <a class="btn-tab" onclick="filterSelection('additional')">
+                                Additional</a>
+                        </li>
+                        <li class="item3" data-id="reviews"><a class="btn-tab"
+                                onclick="filterSelection('reviews')">Reviews <span>(0)</span></a></li>
+                    </ul>
+                </div>
 
+                <div class="description filterDiv description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident.</p>
+                </div>
+                <div class="additional-information filterDiv description d-none">
+                    <p>Weight:0.5 kg</p>
+                    <p>Dimensions:56 × 23 × 27 cm</p>
+                    <p>Type:Paperback, Hardcover, Audiobook, Audio CD, Kindle</p>
+                </div>
+                <div class="user-comment filterDiv reviews d-none">
+                    <p>Leave a comment</p>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email" class="mt-3">
+                    <input type="text" placeholder="Subject" class="mt-3">
+                    <textarea name="" id="" cols="30" rows="10" class="mt-3" placeholder="Your Review"></textarea>
+                    <div class="submit-button">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section id="related-products">
+            <div class="container">
+                <div class="related-products-word">
+                    <h2>Related products</h2>
+                </div>
+                <div class="border mt-4"></div>
+
+                <div class="row">
+                    <div class="col-2">
+                        <div class="related-products">
+                            <div class="image">
+                                <img src="./assets/images/product-detail/related-product-1.jpg" alt="">
+                            </div>
+                            <div class="author-name">
+                                <p>JAMES HOFFMAN</p>
+                            </div>
+                            <div class="book-name">
+                                <span>Sea Sadness PDF</span>
+                            </div>
+                            <div class="book-price">
+                                <p>$22.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="related-products">
+                            <div class="image">
+                                <img src="./assets/images/product-detail/related-product-2.jpg" alt="">
+                            </div>
+                            <div class="author-name">
+                                <p>ADAM STRASS</p>
+                            </div>
+                            <div class="book-name">
+                                <span>Renaissance History</span>
+                            </div>
+                            <div class="book-price">
+                                <p>$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="related-products">
+                            <div class="image">
+                                <img src="./assets/images/product-detail/related-product-3.jpg" alt="">
+                            </div>
+                            <div class="author-name">
+                                <p>JANE DOE</p>
+                            </div>
+                            <div class="book-name">
+                                <span>Fantasy Storytelling</span>
+                            </div>
+                            <div class="book-price">
+                                <p>$25.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="related-products">
+                            <div class="image">
+                                <img src="./assets/images/product-detail/related-product-4.jpg" alt="">
+                            </div>
+                            <div class="author-name">
+                                <p>JANE DOE</p>
+                            </div>
+                            <div class="book-name">
+                                <span>Amsterdam Travel Stories</span>
+                            </div>
+                            <div class="book-price">
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="related-products">
+                            <div class="image">
+                                <img src="./assets/images/product-detail/related-product-5.jpg" alt="">
+                            </div>
+                            <div class="author-name">
+                                <p>JAMES HOFFMAN</p>
+                            </div>
+                            <div class="book-name">
+                                <span>Symphony Of Trilogy</span>
+                            </div>
+                            <div class="book-price">
+                                <p>$120.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="related-products">
+                            <div class="image">
+                                <img src="./assets/images/product-detail/related-product-6.jpg" alt="">
+                            </div>
+                            <div class="author-name">
+                                <p>ADMIN</p>
+                            </div>
+                            <div class="book-name">
+                                <span>Color Pencils</span>
+                            </div>
+                            <div class="book-price">
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
@@ -309,6 +461,7 @@
     <script src="./assets/slick-1.8.1/slick/slick.js"></script>
     <script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
     <script src="./assets/js/productdetail.js"></script>
+    <script src="./assets/js/custom.js"></script>
 </body>
 
 </html>

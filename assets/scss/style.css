@@ -4198,6 +4198,131 @@
   font-size: 18px;
 }
 
+#review-area .tab-menu {
+  margin-top: 100px;
+}
+#review-area .tab-menu ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#review-area .tab-menu ul .active {
+  transition: 1s;
+  background-color: #198754;
+}
+#review-area .tab-menu ul li {
+  list-style: none;
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  height: 40px;
+  padding-top: 7px;
+  cursor: pointer;
+}
+#review-area .tab-menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+#review-area .description {
+  margin-top: 20px;
+}
+#review-area .description p {
+  text-align: center;
+  font-family: auto;
+  color: gray;
+}
+#review-area .filterDiv {
+  display: none;
+}
+#review-area .show {
+  display: block;
+}
+#review-area .user-comment {
+  margin-top: 20px;
+  text-align: center;
+}
+#review-area .user-comment p {
+  font-size: 20px;
+  font-family: auto;
+  font-weight: bold;
+}
+#review-area .user-comment input {
+  width: 50%;
+  height: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.2117647059);
+  padding-left: 15px;
+  outline: none;
+}
+#review-area .user-comment textarea {
+  width: 50%;
+  border: 1px solid rgba(128, 128, 128, 0.2117647059);
+  padding-left: 15px;
+  padding-top: 15px;
+  outline: none;
+}
+#review-area .user-comment .submit-button {
+  margin-top: 20px;
+}
+#review-area .user-comment .submit-button button {
+  width: 130px;
+  height: 50px;
+  background-color: #d14031;
+  color: white;
+  border: none;
+  font-family: initial;
+}
+#review-area .user-comment .submit-button button:hover {
+  background-color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+
+#related-products {
+  margin-top: 100px;
+}
+#related-products .related-products-word h2 {
+  font-family: auto;
+}
+#related-products .related-products {
+  margin-top: 50px;
+}
+#related-products .related-products .image img {
+  cursor: pointer;
+  width: 100%;
+}
+#related-products .related-products .author-name {
+  margin-top: 10px;
+}
+#related-products .related-products .author-name p {
+  color: gray;
+  font-family: auto;
+  font-size: 18px;
+  cursor: pointer;
+}
+#related-products .related-products .author-name p:hover {
+  color: rgb(241, 6, 6);
+  transition: 1s;
+}
+#related-products .related-products .book-name {
+  margin-top: -10px;
+}
+#related-products .related-products .book-name span {
+  font-family: auto;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+#related-products .related-products .book-name span:hover {
+  color: rgb(241, 6, 6);
+  transition: 1s;
+}
+#related-products .related-products .book-price {
+  margin-top: 5px;
+}
+#related-products .related-products .book-price p {
+  color: gray;
+  font-family: auto;
+}
+
 #footer {
   margin-top: 150px;
   background-color: #282828;
@@ -4432,32 +4557,32 @@
   font-family: monospace;
 }
 
-#login-form {
+#forgot-password-form {
   margin-top: 100px;
 }
-#login-form .login h2 {
+#forgot-password-form .login h2 {
   font-family: monospace;
 }
-#login-form .username-label {
+#forgot-password-form .email-label {
   margin-top: 30px;
 }
-#login-form .username-label label {
+#forgot-password-form .email-label label {
   color: gray;
 }
-#login-form .username-input {
+#forgot-password-form .email-input {
   margin-top: 10px;
 }
-#login-form .username-input input {
+#forgot-password-form .email-input input {
   width: 100%;
   height: 50px;
   border: 1px solid gray;
   outline: none;
   padding-left: 15px;
 }
-#login-form .login-button {
+#forgot-password-form .send-button {
   margin-top: 20px;
 }
-#login-form .login-button button {
+#forgot-password-form .send-button button {
   width: 130px;
   height: 50px;
   background-color: #d14031;
@@ -4465,7 +4590,7 @@
   border: none;
   font-family: initial;
 }
-#login-form .login-button button:hover {
+#forgot-password-form .send-button button:hover {
   background-color: rgb(172, 2, 2);
   transition: 0.5s;
 }
