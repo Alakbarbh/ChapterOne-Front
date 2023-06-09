@@ -1,12 +1,8 @@
 
-
-
 filterSelection("all")
 function filterSelection(c) {
-    console.log("click;ar");
     var x, i;
     x = document.getElementsByClassName("filterDiv");
-    console.log();
     if (c == "all") c = "";
     for (i = 0; i < x.length; i++) {
         w3RemoveClass(x[i], "show");
@@ -35,33 +31,11 @@ function w3RemoveClass(element, name) {
     element.className = arr1.join(" ");
 }
 
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn-tab");
-
-for (var i = 0; i < btns.length; i++) {
-
-    btns[i].addEventListener("click", function () {
-        console.log(this.parentNode);
-        var current = document.getElementsByClassName("active");
-        console.log(current);
-        current[0].className = current[0].className.replace(" active", "");
-        this.parentNode.className += " active";
-    });
-}
-
-
-
-
-
-
 
 filterSelection("description")
 function filterSelection(c) {
-    console.log("click;ar");
     var x, i;
     x = document.getElementsByClassName("filterDiv");
-    console.log();
     if (c == "description") c = "";
     for (i = 0; i < x.length; i++) {
         w3RemoveClass(x[i], "show");
@@ -97,11 +71,9 @@ var btns = btnContainer.getElementsByClassName("btn-tab");
 for (var i = 0; i < btns.length; i++) {
 
     btns[i].addEventListener("click", function () {
-        console.log(this.parentNode);
         var current = document.getElementsByClassName("active");
-        console.log(current);
         current[0].className = current[0].className.replace(" active", "");
-        this.parentNode.className += " active";
+        this.className += " active";
     });
 }
 

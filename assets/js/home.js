@@ -1,5 +1,34 @@
 $(document).ready(function () {
 
+    //Navbarın fixed olub aşağı gəlməyi
+    $(window).scroll(function () {
+        var header = $('#navbar'),
+            scroll = $(window).scrollTop();
+        let logoImg = $(".logo img")
+                if (scroll >= 150) {
+            header.css({
+                'position': 'fixed',
+                'top': '0',
+                'left': '0',
+                'right': '0',
+                'z-index': '99999',
+                'background-color' : 'white',
+                'box-shadow': 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
+            });
+            logoImg.css({
+                'margin-top': '26px'
+            })
+        } else {
+            header.css({
+                'position': 'relative',
+                'box-shadow': 'none'
+            });
+            logoImg.css({
+                'margin-top': '40px'
+            })
+        }
+    });
+
     let search = document.querySelector(".search i")
     search.addEventListener("click", function () {
         document.querySelector(".search-input").classList.toggle("d-none")
@@ -45,30 +74,6 @@ $(document).ready(function () {
         }, 900)
 
     })
-
-
-
-    // let headers = document.querySelectorAll(".category .item");
-
-    // let contents = document.querySelectorAll("#products .products")
-
-
-    // headers.forEach(element => {
-    //     element.addEventListener("click", function () {
-    //         document.querySelector(".active").classList.remove("active");
-    //         this.classList.add("active");
-
-    //         contents.forEach(content => {
-    //             if (content.getAttribute("data-id") == this.getAttribute("data-id")) {
-    //                 content.classList.remove("d-none")
-    //             } else {
-    //                 content.classList.add("d-none")
-    //             }
-
-    //         });
-    //     })
-    // });
-
 
 
 })

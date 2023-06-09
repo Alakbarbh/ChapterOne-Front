@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="./assets/scss/style.css">
     <title>Cart</title>
 </head>
+
 <body>
     <header>
         <section id="navbar">
@@ -60,9 +62,9 @@
                             <div class="border"></div>
                         </div>
                         <div class="login-register d-none">
-                            <a href="">Login</a>
+                            <a href="Login.html">Login</a>
                             <div class="border"></div>
-                            <a href="">Register</a>
+                            <a href="Register.html">Register</a>
                         </div>
                     </div>
                 </div>
@@ -70,6 +72,54 @@
         </section>
     </header>
     <main>
+        <section id="background">
+            <div class="background-images" style="background-image:url(./assets/images/cart/cart-backgorund-image.jpg)">
+                <h2>Cart</h2>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container">
+                <div class="basket-products">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Action</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                        <tr>
+                            <td><button class="btn btn-primary shop"><a href="Shop.html">Continue shopping</a></button>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><span>Grand total:</span></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="show-alert d-none">
+                    <div class="alert">
+                        <button class="btn btn-danger btn-red">YOU HAVE NO ITEMS IN YOUR SHOPPING CART.</button>
+
+                    </div>
+                    <div class="button-shop">
+                        <button class="btn btn-primary btn-orange">Continue shopping</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
     </main>
     <footer>
         <section id="footer">
@@ -95,10 +145,14 @@
                                 <p>follow us on social media and learn about</p>
                                 <p>new promotions.</p>
                                 <div class="icons">
-                                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                                    <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="https://dribbble.com/" target="_blank"><i class="fa-solid fa-basketball"></i></a>
+                                    <a href="https://twitter.com/" target="_blank"><i
+                                            class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/?hl=en" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/" target="_blank"><i
+                                            class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://dribbble.com/" target="_blank"><i
+                                            class="fa-solid fa-basketball"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +202,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" <script
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
         integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
         crossorigin="anonymous"></script>
@@ -162,4 +216,5 @@
     <script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
     <script src="./assets/js/cart.js"></script>
 </body>
+
 </html>

@@ -32,7 +32,6 @@ $(document).ready(function () {
 
     filterSelection("description")
     function filterSelection(c) {
-        console.log("click;ar");
         var x, i;
         x = document.getElementsByClassName("filterDiv");
         console.log();
@@ -69,13 +68,10 @@ $(document).ready(function () {
     var btns = btnContainer.getElementsByClassName("btn-tab");
 
     for (var i = 0; i < btns.length; i++) {
-
         btns[i].addEventListener("click", function () {
-            console.log(this.parentNode);
             var current = document.getElementsByClassName("active");
-            console.log(current);
             current[0].className = current[0].className.replace(" active", "");
-            this.parentNode.className += " active";
+            this.className += " active";
         });
     }
 

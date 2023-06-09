@@ -337,11 +337,7 @@
                 display: flex;
                 margin-left: 50px;
                 padding-top: 10px;
-                .logo-image{
-                    img{
-
-                    }
-                }
+           
                 .names{
                     margin-left: 10px;
                     p{
@@ -364,7 +360,10 @@
 
             .active{
                 transition: 1s;
-                background-color: #198754;
+                background-color: #000;
+                a{
+                    color: #fff !important;
+                }
                 
             }
             li {
@@ -394,11 +393,7 @@
         }
     }
 
-    .additional-information{
-        p{
-            
-        }
-    }
+  
 
     .filterDiv {
         display: none ;
