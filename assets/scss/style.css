@@ -176,6 +176,12 @@
 #products .products .price-button button {
   border: none;
   margin-left: 167px;
+  background-color: #d14031;
+  border-radius: 0;
+}
+#products .products .price-button button:hover {
+  background-color: rgb(172, 2, 2);
+  transition: 0.5s;
 }
 
 #our-services {
@@ -1435,6 +1441,12 @@
 #product-sidebar .products .price-button button {
   border: none;
   margin-left: 167px;
+  background-color: #d14031;
+  border-radius: 0;
+}
+#product-sidebar .products .price-button button:hover {
+  background-color: rgb(172, 2, 2);
+  transition: 0.5s;
 }
 #product-sidebar .pagination {
   justify-content: center;
@@ -1498,51 +1510,65 @@
   font-family: initial;
 }
 #product-sidebar .right-section .product-price {
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text";
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
-#product-sidebar .right-section .product-price .price-title {
+#product-sidebar .right-section .price-title {
   padding: 2px 20px;
 }
-#product-sidebar .right-section .product-price .price-title h3 {
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: capitalize;
+#product-sidebar .right-section .price-title h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: "Crimson Text";
 }
-#product-sidebar .right-section .product-price .price-filter .card {
-  border-radius: 5px;
+#product-sidebar .right-section .price-filter .card {
+  border: none;
   padding: 0 20px 20px 20px;
 }
-#product-sidebar .right-section .product-price .price-filter h4 {
+#product-sidebar .right-section .price-filter h4 {
   color: #000;
   margin-bottom: 20px;
   text-align: center;
   font-weight: 600;
 }
-#product-sidebar .right-section .product-price .price-filter .price-content {
+#product-sidebar .right-section .price-filter .price-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 30px;
+  margin-top: 10px;
 }
-#product-sidebar .right-section .product-price .price-filter label {
+#product-sidebar .right-section .price-filter .price-content .filter-button button {
+  border: none;
+  background-color: #d14031;
+  height: 40px;
+  width: 90px;
+  color: white;
+}
+#product-sidebar .right-section .price-filter .price-content .filter-button button:hover {
+  background-color: rgb(172, 2, 2);
+  transition: 0.5s;
+}
+#product-sidebar .right-section .price-filter label {
   font-size: 12px;
   font-weight: 500;
 }
-#product-sidebar .right-section .product-price .price-filter p {
+#product-sidebar .right-section .price-filter p {
   font-size: 16px;
   font-weight: 600;
 }
-#product-sidebar .right-section .product-price .price-filter .range-slider {
+#product-sidebar .right-section .price-filter .range-slider {
   position: relative;
   margin: 15px 0 30px 0;
 }
-#product-sidebar .right-section .product-price .price-filter input[type=range] {
+#product-sidebar .right-section .price-filter input[type=range] {
   width: 100%;
   background: transparent;
   position: absolute;
   left: 0;
 }
-#product-sidebar .right-section .product-price .price-filter input[type=range]::-webkit-slider-thumb {
+#product-sidebar .right-section .price-filter input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 15px;
   width: 15px;
@@ -1553,10 +1579,10 @@
   position: relative;
   z-index: 1;
 }
-#product-sidebar .right-section .product-price .price-filter input[type=range]::-webkit-slider-runnable-track {
+#product-sidebar .right-section .price-filter input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 5px;
-  background: #e8e8e8;
+  background: #d14031;
   border-radius: 3px;
   border: none;
 }
@@ -2032,6 +2058,7 @@
 }
 #login-form .password-input {
   margin-top: 10px;
+  display: flex;
 }
 #login-form .password-input input {
   width: 100%;
@@ -2039,6 +2066,17 @@
   border: 1px solid gray;
   outline: none;
   padding-left: 15px;
+}
+#login-form .password-input i {
+  color: black;
+  margin-left: -31px;
+  margin-top: 14px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#login-form .password-input i:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
 }
 #login-form .remenber-login {
   display: flex;
@@ -2108,7 +2146,7 @@
 #register-form {
   margin-top: 100px;
 }
-#register-form .login h2 {
+#register-form .register h2 {
   font-family: monospace;
 }
 #register-form .first-name-label {
@@ -2167,6 +2205,7 @@
 }
 #register-form .password-input {
   margin-top: 10px;
+  display: flex;
 }
 #register-form .password-input input {
   width: 100%;
@@ -2174,6 +2213,17 @@
   border: 1px solid gray;
   outline: none;
   padding-left: 15px;
+}
+#register-form .password-input i {
+  color: gray;
+  margin-left: -31px;
+  margin-top: 14px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#register-form .password-input i:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
 }
 #register-form .confirm-password-label {
   margin-top: 30px;
@@ -2183,6 +2233,7 @@
 }
 #register-form .confirm-password-input {
   margin-top: 10px;
+  display: flex;
 }
 #register-form .confirm-password-input input {
   width: 100%;
@@ -2190,6 +2241,17 @@
   border: 1px solid gray;
   outline: none;
   padding-left: 15px;
+}
+#register-form .confirm-password-input i {
+  color: gray;
+  margin-left: -31px;
+  margin-top: 14px;
+  font-size: 20px;
+  cursor: pointer;
+}
+#register-form .confirm-password-input i:hover {
+  color: rgb(172, 2, 2);
+  transition: 0.5s;
 }
 #register-form .register .register-button {
   margin-top: 20px;

@@ -17,7 +17,7 @@
 #register-form {
     margin-top: 100px;
 
-    .login {
+    .register {
         h2 {
             font-family: monospace;
         }
@@ -93,13 +93,24 @@
 
     .password-input {
         margin-top: 10px;
-
+        display: flex;
         input {
             width: 100%;
             height: 50px;
             border: 1px solid gray;
             outline: none;
             padding-left: 15px;
+        }
+        i{
+            color: gray;
+            margin-left: -31px;
+            margin-top: 14px;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                color:rgb(172, 2, 2) ;
+                transition: 0.5s;
+            }
         }
     }
 
@@ -113,13 +124,24 @@
 
     .confirm-password-input {
         margin-top: 10px;
-
+        display: flex;
         input {
             width: 100%;
             height: 50px;
             border: 1px solid gray;
             outline: none;
             padding-left: 15px;
+        }
+        i{
+            color: gray;
+            margin-left: -31px;
+            margin-top: 14px;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover{
+                color:rgb(172, 2, 2) ;
+                transition: 0.5s;
+            }
         }
     }
 
