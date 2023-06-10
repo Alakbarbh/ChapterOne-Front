@@ -5,6 +5,7 @@ $(document).ready(function () {
         var header = $('#navbar'),
             scroll = $(window).scrollTop();
         let logoImg = $(".logo img")
+        let loginRegister = $(".login-register")
         if (scroll >= 150) {
             header.css({
                 'position': 'fixed',
@@ -17,6 +18,9 @@ $(document).ready(function () {
             });
             logoImg.css({
                 'margin-top': '26px'
+            })
+            loginRegister.css({
+                'background-color': 'white'
             })
         } else {
             header.css({
