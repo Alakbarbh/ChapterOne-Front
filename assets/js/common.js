@@ -61,5 +61,11 @@ $(document).ready(function () {
 
     })
 
+    let searchPhone = document.querySelector("#navbar-phone .icons ul li .search")
+    searchPhone.addEventListener("click", function () {
+        document.querySelector("#navbar-phone .search-input").classList.toggle("d-none")
+    })
+
+
 
 })

@@ -2479,6 +2479,10 @@
   font-family: auto;
   font-weight: bold;
 }
+#review-area .user-comment .stars i {
+  cursor: pointer;
+  color: gray;
+}
 #review-area .user-comment input {
   width: 50%;
   height: 50px;
@@ -3312,4 +3316,57 @@
 #footer .btn #topbtn i {
   color: #909090;
   font-size: 23px;
+}
+
+#navbar-phone .nav {
+  display: flex;
+  justify-content: space-between;
+}
+#navbar-phone .nav .logo-img {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#navbar-phone .nav .logo-img img {
+  width: 50px;
+  height: 50px;
+}
+#navbar-phone .nav .icons {
+  margin-top: 20px;
+  margin-left: -30px;
+}
+#navbar-phone .nav .icons ul {
+  gap: 15px;
+  display: flex;
+}
+#navbar-phone .nav .icons ul li {
+  list-style: none;
+}
+#navbar-phone .nav .icons ul li a {
+  text-decoration: none;
+}
+#navbar-phone .nav .icons ul li a i {
+  color: black;
+  cursor: pointer;
+}
+#navbar-phone .nav .icons ul li i {
+  color: black;
+  cursor: pointer;
+}
+#navbar-phone .nav .hamburger-icon {
+  margin-top: 20px;
+}
+#navbar-phone .search-input input {
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 850px) {
+  #navbar .logo-pages .logo {
+    width: 20px;
+    height: 20px;
+  }
+  #navbar .logo-pages .logo img {
+    width: 70px;
+    margin-top: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
