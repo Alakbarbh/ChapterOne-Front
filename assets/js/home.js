@@ -20,10 +20,9 @@ $(document).ready(function () {
 })
 
 
+//tab-menu
+filterSelection("all")
 
-$(document).ready(function () {
-    //tab-menu
-    filterSelection("all")
     function filterSelection(c) {
         var x, i;
         x = document.getElementsByClassName("filterDiv");
@@ -54,5 +53,20 @@ $(document).ready(function () {
         }
         element.className = arr1.join(" ");
     }
-})
+
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn-tab");
+
+    for (var i = 0; i < btns.length; i++) {
+
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+
+
+
+
 

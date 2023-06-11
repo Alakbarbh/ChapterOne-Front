@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <section id="navbar">
+        <section id="navbar" class="d-lg-block d-none">
             <div class="container">
                 <div class="row">
                     <div class="col-6">
@@ -70,6 +70,43 @@
                 </div>
             </div>
         </section>
+        <section id="navbar-phone" class="d-lg-none d-block">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo-img">
+                        <a href="Home.html"><img src="./assets/images/home/book-logo-5.png" alt=""></a>
+                    </div>
+                    <div class="icons">
+                        <ul>
+                            <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                            <li><a href="Login.html"><i class="fa-solid fa-user"></i></a></li>
+                            <li><a href="Wishlist.html"><i class="fa-solid fa-heart"></i></a></li>
+                            <li><i class="fa-solid fa-magnifying-glass search"></i></li>
+                        </ul>
+                    </div>
+                    <div class="hamburger-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    
+                </div>
+                <div class="search-input d-none mt-2">
+                    <div class="border"></div>
+                    <input type="text" placeholder="Search">
+                    <div class="border"></div>
+                </div>
+                <div class="hamburger-menu d-none">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Shop.html">Shop</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="border mt-3 d-lg-none d-block"></div>
     </header>
     <main>
         <section id="background">
@@ -344,9 +381,9 @@
     </main>
     <footer>
         <section id="footer">
-            <div class="container">
+            <div class="container footer-background-color">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="left1">
                             <h4>Publishers</h4>
                             <div class="story">
@@ -358,7 +395,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="left2">
                             <h4>Contact</h4>
                             <div class="story">
@@ -378,7 +415,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="left3">
                             <h4>News & Update</h4>
                             <div class="story">
@@ -390,7 +427,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="right">
                             <h4>Social media</h4>
                             <div class="story">

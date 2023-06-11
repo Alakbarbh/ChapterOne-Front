@@ -296,72 +296,318 @@
     }
 }
 
-
 #navbar-phone {
     .nav {
         display: flex;
         justify-content: space-between;
+
         .logo-img {
             margin-top: 10px;
             margin-left: 10px;
+
             img {
                 width: 50px;
                 height: 50px;
             }
         }
-        .icons{
+
+        .icons {
             margin-top: 20px;
             margin-left: -30px;
-            ul{
+
+            ul {
                 gap: 15px;
                 display: flex;
-                li{
+
+                li {
                     list-style: none;
-                    a{
+
+                    a {
                         text-decoration: none;
-                        i{
+
+                        i {
                             color: black;
                             cursor: pointer;
                         }
                     }
-                    i{
+
+                    i {
                         color: black;
                         cursor: pointer;
                     }
                 }
             }
-            
-        }
-        .hamburger-icon{
-            margin-top: 20px;
-            i{
 
-            }
         }
-        
+
+        .hamburger-icon {
+            margin-top: 20px;
+
+            i {}
+        }
+
     }
-    .search-input{
-        input{
+
+    .search-input {
+        input {
             border: none;
             outline: none;
         }
     }
+
+    .hamburger-menu {
+        margin-top: 10px;
+
+        ul {
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: gray;
+                    font-family: auto;
+                }
+            }
+        }
+    }
 }
 
-
 @media (max-width:850px) {
-    #navbar {
-        .logo-pages {
-            .logo {
-                width: 20px;
-                height: 20px;
+    #slider {
+        .swiper {
+            .swiper-wrapper {
+                .swiper-slide {
+                    p {
+                        font-size: 10px;
+                    }
 
-                img {
-                    width: 70px;
-                    margin-top: 40px;
+                    h1 {
+                        font-size: 15px;
+                        margin-top: 10px;
+                    }
+
+                    h3 {
+                        width: 100px;
+                        font-size: 10px;
+                        margin-top: 30px !important;
+                    }
+
+                    .shop {
+                        margin-top: 30px;
+                        font-size: 9px;
+                        width: 100px;
+                        height: 30px;
+                    }
                 }
             }
         }
     }
 
+    #products {
+        .category {
+            ul {
+                li {
+                    a {
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+
+        .products {
+            .price-button {
+                button {
+                    margin-left: 50px;
+                    margin-left: 228px;
+                }
+            }
+        }
+    }
+
+    #our-services {
+        .service {
+            .background-image {
+                .description {
+                    h3 {
+                        font-size: 15px;
+                        width: 150px;
+                        margin-left: 111px;
+                    }
+                }
+            }
+        }
+    }
+
+    #authors {
+        .authors {
+            .services {
+                margin-left: -90px;
+
+                p {}
+            }
+
+            .month {
+                margin-left: -75px;
+
+                h1 {}
+            }
+
+            .description {
+                margin-left: -332px;
+
+                p {
+                    width: 267px;
+                }
+            }
+        }
+    }
+
+    #autobiography1 {
+        .autobiography1 {
+            .left {
+                .image {
+                    display: none;
+                }
+
+                .name {
+                    margin-left: 121px;
+
+                    p {}
+                }
+
+                .title {
+                    margin-left: 60px;
+
+                    h3 {}
+                }
+
+                .description {
+                    margin-left: 17px;
+
+                    p {
+                        width: 350px;
+                        text-align: center;
+                    }
+                }
+
+                .button {
+                    margin-left: 97px;
+
+                    button {}
+                }
+            }
+
+            .right {
+                .image1 {
+                    display: none;
+                }
+
+                .image2 {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #autobiography2 {
+        .autobiography2 {
+            .left {
+                .backgrounds {
+                    .backgorund-image {
+                        display: none;
+                    }
+                }
+
+                .images {
+                    display: none;
+                }
+
+                .title {
+                    margin-left: 60px;
+
+                    h3 {}
+                }
+
+                .description {
+                    margin-left: 17px;
+
+                    p {
+                        width: 350px;
+                        text-align: center;
+                    }
+                }
+
+                .button {
+                    margin-left: 97px;
+
+                    button {}
+                }
+            }
+
+            .right {
+
+                .name {
+                    margin-left: 70px;
+                }
+
+                .title {
+                    margin-left: 22px;
+                }
+
+                .description {
+                    margin-left: -32px;
+
+                    p {
+                        width: 350px;
+                        text-align: center;
+                    }
+                }
+
+                .button {
+                    margin-left: 50px;
+                }
+
+                .image {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #brand {
+        .brand {
+            margin-top: 30px;
+
+            img {
+                margin-left: 100px;
+                width: 50%;
+            }
+        }
+    }
+
+    #footer {
+        .footer-background-color {
+            background-color: #282828;
+
+            .right {
+                .story {
+                    .images1 {
+                        img {
+                            width: 31%;
+                        }
+                    }
+
+                    .images2 {
+                        img {
+                            width: 31%;
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                margin-left: 220px;
+            }
+        }
+    }
 }

@@ -67,5 +67,11 @@ $(document).ready(function () {
     })
 
 
+    let hamburgerMenu = document.querySelector("#navbar-phone .nav .hamburger-icon i")
+    hamburgerMenu.addEventListener("click", function () {
+        document.querySelector("#navbar-phone .hamburger-menu").classList.toggle("d-none")
+    })
+
+
 
 })

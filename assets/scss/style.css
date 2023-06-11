@@ -3359,14 +3359,141 @@
   border: none;
   outline: none;
 }
+#navbar-phone .hamburger-menu {
+  margin-top: 10px;
+}
+#navbar-phone .hamburger-menu ul li {
+  list-style: none;
+}
+#navbar-phone .hamburger-menu ul li a {
+  text-decoration: none;
+  color: gray;
+  font-family: auto;
+}
 
 @media (max-width: 850px) {
-  #navbar .logo-pages .logo {
-    width: 20px;
-    height: 20px;
+  #slider .swiper .swiper-wrapper .swiper-slide p {
+    font-size: 10px;
   }
-  #navbar .logo-pages .logo img {
-    width: 70px;
-    margin-top: 40px;
+  #slider .swiper .swiper-wrapper .swiper-slide h1 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  #slider .swiper .swiper-wrapper .swiper-slide h3 {
+    width: 100px;
+    font-size: 10px;
+    margin-top: 30px !important;
+  }
+  #slider .swiper .swiper-wrapper .swiper-slide .shop {
+    margin-top: 30px;
+    font-size: 9px;
+    width: 100px;
+    height: 30px;
+  }
+  #products .category ul li a {
+    font-size: 8px;
+  }
+  #products .products .price-button button {
+    margin-left: 50px;
+    margin-left: 228px;
+  }
+  #our-services .service .background-image .description h3 {
+    font-size: 15px;
+    width: 150px;
+    margin-left: 111px;
+  }
+  #authors .authors .services {
+    margin-left: -90px;
+  }
+  #authors .authors .month {
+    margin-left: -75px;
+  }
+  #authors .authors .description {
+    margin-left: -332px;
+  }
+  #authors .authors .description p {
+    width: 267px;
+  }
+  #autobiography1 .autobiography1 .left .image {
+    display: none;
+  }
+  #autobiography1 .autobiography1 .left .name {
+    margin-left: 121px;
+  }
+  #autobiography1 .autobiography1 .left .title {
+    margin-left: 60px;
+  }
+  #autobiography1 .autobiography1 .left .description {
+    margin-left: 17px;
+  }
+  #autobiography1 .autobiography1 .left .description p {
+    width: 350px;
+    text-align: center;
+  }
+  #autobiography1 .autobiography1 .left .button {
+    margin-left: 97px;
+  }
+  #autobiography1 .autobiography1 .right .image1 {
+    display: none;
+  }
+  #autobiography1 .autobiography1 .right .image2 {
+    display: none;
+  }
+  #autobiography2 .autobiography2 .left .backgrounds .backgorund-image {
+    display: none;
+  }
+  #autobiography2 .autobiography2 .left .images {
+    display: none;
+  }
+  #autobiography2 .autobiography2 .left .title {
+    margin-left: 60px;
+  }
+  #autobiography2 .autobiography2 .left .description {
+    margin-left: 17px;
+  }
+  #autobiography2 .autobiography2 .left .description p {
+    width: 350px;
+    text-align: center;
+  }
+  #autobiography2 .autobiography2 .left .button {
+    margin-left: 97px;
+  }
+  #autobiography2 .autobiography2 .right .name {
+    margin-left: 70px;
+  }
+  #autobiography2 .autobiography2 .right .title {
+    margin-left: 22px;
+  }
+  #autobiography2 .autobiography2 .right .description {
+    margin-left: -32px;
+  }
+  #autobiography2 .autobiography2 .right .description p {
+    width: 350px;
+    text-align: center;
+  }
+  #autobiography2 .autobiography2 .right .button {
+    margin-left: 50px;
+  }
+  #autobiography2 .autobiography2 .right .image {
+    display: none;
+  }
+  #brand .brand {
+    margin-top: 30px;
+  }
+  #brand .brand img {
+    margin-left: 100px;
+    width: 50%;
+  }
+  #footer .footer-background-color {
+    background-color: #282828;
+  }
+  #footer .footer-background-color .right .story .images1 img {
+    width: 31%;
+  }
+  #footer .footer-background-color .right .story .images2 img {
+    width: 31%;
+  }
+  #footer .footer-background-color .btn {
+    margin-left: 220px;
   }
 }/*# sourceMappingURL=style.css.map */

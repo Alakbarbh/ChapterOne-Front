@@ -1,10 +1,3 @@
-// *,&::before,&::after{
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
-
 #slider {
     margin-top: 75px;
 
@@ -127,16 +120,17 @@
 
 #products {
     margin-top: 150px;
-    .container{
-        .row{
+
+    .container {
+        .row {
             .filterDiv {
-                display: none ;
+                display: none;
             }
-            
+
             .show {
                 display: block;
             }
-         
+
         }
     }
 
@@ -146,14 +140,16 @@
             gap: 10px;
             justify-content: center;
 
-            .active{
+            .active {
                 transition: 1s;
                 background-color: #000;
-                a{
+
+                a {
                     color: #fff !important;
                 }
-                
+
             }
+
             li {
                 list-style: none;
                 border: 1px solid black;
@@ -162,6 +158,7 @@
                 height: 40px;
                 padding-top: 7px;
                 cursor: pointer;
+
                 a {
                     text-decoration: none;
                     color: black;
@@ -175,6 +172,7 @@
         height: 560px;
         margin-top: 50px;
         overflow: hidden;
+
         a {
 
             img {
@@ -227,53 +225,13 @@
                 margin-left: 167px;
                 background-color: #d14031;
                 border-radius: 0;
+
                 &:hover {
                     background-color: rgb(172, 2, 2);
                     transition: 0.5s;
                 }
             }
 
-            // .btn{
-            //     width: 8em;
-            //     height: 2.5em;
-            //     font-size: 1.25rem;
-            //     font-weight: 700;
-            //     position: relative;
-            //     border: 0;
-            //     cursor: pointer;
-            //     background-color: blue;
-            //     color: #5d4f0f;
-            //     transition: background
-            //     200ms ease-in-out;
-            //     color: #ffffff;
-
-            //     .border-container{
-            //         position: absolute;
-            //         width: 100%;
-            //         height: 100%;
-            //         inset: 0;
-            //     }
-
-            //     .border-line{
-            //         width: 100%;
-            //         height: 100%;
-            //         fill: transparent;
-            //         stroke: #5d4f0f;
-            //         stroke-width: 5px;
-            //         stroke-dasharray: 0 100;
-            //         transition: stroke-dasharray
-            //         750ms ease-in-out;
-            //     }
-
-            //     &:hover{
-            //         background-color: transparent;
-            //         color: #333333;
-
-            //         .border-line{
-            //             stroke-dasharray: 100 0;
-            //         }
-            //     }
-            // }
         }
     }
 
@@ -358,7 +316,7 @@
             text-align: center;
             color: gray;
 
-        
+
         }
 
         .month {
@@ -415,6 +373,7 @@
 
 #autobiography1 {
     margin-top: 150px;
+
     .autobiography1 {
         width: 100%;
         height: 500px;
@@ -615,6 +574,7 @@
 
     .image1 {
         overflow: hidden;
+
         img {
             width: 100%;
 
