@@ -161,11 +161,8 @@
                 height: 50px;
                 border: 1px solid #80808036;
                 width: 100%;
-
-                &::placeholder {
-                    padding-left: 10px;
-                }
-
+                outline: none;
+                padding-left: 15px;
             }
         }
 

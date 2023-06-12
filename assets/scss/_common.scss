@@ -342,8 +342,6 @@
 
         .hamburger-icon {
             margin-top: 20px;
-
-            i {}
         }
 
     }
@@ -636,8 +634,182 @@
         }
     }
 
+    #product-sidebar {
+        .products {
+            .price-button {
+                button {
+                    margin-left: 228px;
+                }
+            }
+        }
 
+        .right-section {
+            margin-left: 0;
 
+            .logo {
+                margin-left: 69px;
+            }
+
+            .images {
+                img {
+                    width: 70px;
+                }
+            }
+        }
+
+        .pagination {
+            margin-top: 40px;
+        }
+    }
+
+    #contact {
+        .name {
+            margin-top: 40px;
+        }
+    }
+
+    #blog {
+        .section-2 {
+            .description {
+                width: 273px;
+                margin-left: 50px;
+            }
+        }
+
+        .section-6 {
+            margin-left: 0;
+        }
+
+        .section-7 {
+            margin-left: 0;
+        }
+
+        .section-8 {
+            margin-left: 0;
+        }
+
+        .section-9 {
+            margin-left: 0;
+        }
+
+        .section-10 {
+            margin-left: 0;
+        }
+
+        .section-11 {
+            margin-left: 0;
+        }
+
+        .logo {
+            span {
+                margin-left: 176px !important;
+            }
+        }
+    }
+
+    #review-area {
+        .tab-menu {
+            ul {
+                margin-left: -30px;
+            }
+        }
+
+        .user-comment {
+            input {
+                width: 100%;
+            }
+
+            textarea {
+                width: 100%;
+            }
+        }
+    }
+
+    #blog-detail {
+        .details {
+            .section-1 {
+                .icons {
+                    margin-left: 100px;
+                }
+            }
+
+            .section-2 {
+                .image-names {
+
+                    .description-4 {
+                        width: 200px;
+                    }
+
+                }
+            }
+
+            .section-3 {
+                .comments {
+                    .image-names {
+                        .description-4 {
+                            width: 200px;
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-5 {
+            margin-top: 60px;
+            margin-left: 0;
+
+            .logo {
+                span {
+                    margin-left: 177px;
+                }
+            }
+        }
+
+        .section-6 {
+            margin-left: 0;
+
+            .logo {
+                span {
+                    margin-left: 177px;
+                }
+            }
+        }
+
+        .section-7 {
+            margin-left: 0;
+
+            .logo {
+                span {
+                    margin-left: 177px;
+                }
+            }
+        }
+
+        .section-8 {
+            .logo {
+                span {
+                    margin-left: 177px;
+                }
+            }
+
+            margin-left: 0;
+        }
+
+        .section-9 {
+            .logo {
+                span {
+                    margin-left: 177px;
+                }
+            }
+
+            margin-left: 0;
+        }
+
+        .section-10 {
+            margin-left: 0;
+        }
+    }
 }
 
 @media (min-width:760px) and (max-width:1200px) {
@@ -746,11 +918,187 @@
                 width: 450px;
             }
         }
-    }
 
-    .cartsss{
-        .box-area{
-            margin-left: -20px;
+        .cartsss {
+            .box-area {
+                margin-left: -20px;
+            }
         }
     }
+
+    #product-sidebar {
+        .products {
+            .price-button {
+                button {
+                    margin-left: 197px;
+                }
+            }
+        }
+
+        .logo {
+            span {
+                margin-left: 272px !important;
+            }
+        }
+
+        .right-section {
+            margin-left: 0;
+
+            .images {
+                img {
+                    width: 135px;
+                    height: 190px;
+                }
+            }
+        }
+
+    }
+
+    #blog {
+        .section-2 {
+            .description {
+                width: 600px;
+            }
+        }
+
+        .section-6 {
+            .description {
+                p {
+                    width: 582px !important;
+                }
+            }
+
+            .logo {
+
+                span {
+                    margin-left: 340px !important;
+                }
+            }
+        }
+
+        .section-7 {
+            .logo {
+
+                span {
+                    margin-left: 340px !important;
+                }
+            }
+        }
+
+        .section-8 {
+            .logo {
+
+                span {
+                    margin-left: 340px !important;
+                }
+            }
+        }
+
+        .section-9 {
+            .logo {
+
+                span {
+                    margin-left: 340px !important;
+                }
+            }
+        }
+
+        .section-10 {
+            .logo {
+
+                span {
+                    margin-left: 340px !important;
+                }
+            }
+        }
+
+    }
+
+    #blog-detail {
+        .details {
+            .section-1 {
+                .icons {
+                    margin-left: 270px;
+                }
+            }
+
+            .section-2 {
+                .image-names {
+                    .description-4 {
+                        width: 515px;
+                    }
+                }
+            }
+
+            .section-3 {
+                .comments {
+                    .image-names {
+                        .description-4 {
+                            width: 515px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-5 {
+            .description {
+                p {
+                    width: 600px;
+                }
+            }
+
+            .logo {
+                span {
+                    margin-left: 341px;
+                }
+            }
+        }
+
+        .section-6 {
+            margin-left: 0;
+    
+            .logo {
+                span {
+                    margin-left: 341px;
+                }
+            }
+        }
+    
+        .section-7 {
+            margin-left: 0;
+        
+            .logo {
+                span {
+                    margin-left: 341px;
+                }
+            }
+        }
+        
+        .section-8 {
+            .logo {
+                span {
+                    margin-left: 341px;
+                }
+            }
+        
+            margin-left: 0;
+        }
+        
+        .section-9 {
+            .logo {
+                span {
+                    margin-left: 341px;
+                }
+            }
+        
+            margin-left: 0;
+        }
+        
+        .section-10 {
+            margin-left: 0;
+        }
+    }
+
 }
+

@@ -61,6 +61,8 @@ $(document).ready(function () {
 
     })
 
+
+
     let searchPhone = document.querySelector("#navbar-phone .icons ul li .search")
     searchPhone.addEventListener("click", function () {
         document.querySelector("#navbar-phone .search-input").classList.toggle("d-none")
@@ -71,7 +73,5 @@ $(document).ready(function () {
     hamburgerMenu.addEventListener("click", function () {
         document.querySelector("#navbar-phone .hamburger-menu").classList.toggle("d-none")
     })
-
-
 
 })
