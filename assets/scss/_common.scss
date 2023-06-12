@@ -610,4 +610,147 @@
             }
         }
     }
+
+    #carts {
+        .carts1 {
+            margin-left: 27px;
+        }
+
+        .carts3 {
+            margin-left: 20px;
+        }
+    }
+
+    #promo-products {
+        .description {
+            margin-left: 60px;
+
+            p {
+                width: 250px;
+            }
+        }
+
+        .cartsss {
+            width: 84%;
+            margin-left: 35px;
+        }
+    }
+
+
+
+}
+
+@media (min-width:760px) and (max-width:1200px) {
+    #products {
+        .category {
+            ul {
+                li {
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .products {
+            .price-button {
+                button {
+                    margin-left: 197px;
+                }
+            }
+        }
+    }
+
+    #our-services {
+        .service {
+            .description {
+                h3 {
+                    width: 350px !important;
+                    margin-left: 172px !important;
+                }
+            }
+        }
+    }
+
+    #authors {
+        .authors {
+            .description {
+                p {
+                    width: 579px;
+                }
+            }
+        }
+    }
+
+    #autobiography1 {
+        .autobiography1 {
+            .left {
+                .name {
+                    margin-left: 275px;
+                }
+
+                .title {
+                    margin-left: 200px;
+                }
+
+                .description {
+                    margin-left: 120px;
+
+                    p {
+                        width: 450px;
+                    }
+                }
+
+                .button {
+                    margin-left: 243px;
+                }
+            }
+
+            .right {
+                background-image: none !important;
+            }
+        }
+    }
+
+    #autobiography2 {
+        .autobiography2 {
+            .right {
+                .name {
+                    margin-left: 230px;
+                }
+
+                .title {
+                    margin-left: 170px;
+                }
+
+                .description {
+                    margin-left: 80px;
+
+                    p {
+                        width: 450px;
+                    }
+                }
+
+                .button {
+                    margin-left: 200px;
+                }
+            }
+        }
+    }
+
+    #promo-products {
+        .description {
+            margin-left: 120px;
+
+            p {
+                width: 450px;
+            }
+        }
+    }
+
+    .cartsss{
+        .box-area{
+            margin-left: -20px;
+        }
+    }
 }

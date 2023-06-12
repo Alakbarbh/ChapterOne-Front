@@ -3496,4 +3496,77 @@
   #footer .footer-background-color .btn {
     margin-left: 220px;
   }
+  #carts .carts1 {
+    margin-left: 27px;
+  }
+  #carts .carts3 {
+    margin-left: 20px;
+  }
+  #promo-products .description {
+    margin-left: 60px;
+  }
+  #promo-products .description p {
+    width: 250px;
+  }
+  #promo-products .cartsss {
+    width: 84%;
+    margin-left: 35px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1200px) {
+  #products .category ul li a {
+    font-size: 15px;
+  }
+  #products .products .price-button button {
+    margin-left: 197px;
+  }
+  #our-services .service .description h3 {
+    width: 350px !important;
+    margin-left: 172px !important;
+  }
+  #authors .authors .description p {
+    width: 579px;
+  }
+  #autobiography1 .autobiography1 .left .name {
+    margin-left: 275px;
+  }
+  #autobiography1 .autobiography1 .left .title {
+    margin-left: 200px;
+  }
+  #autobiography1 .autobiography1 .left .description {
+    margin-left: 120px;
+  }
+  #autobiography1 .autobiography1 .left .description p {
+    width: 450px;
+  }
+  #autobiography1 .autobiography1 .left .button {
+    margin-left: 243px;
+  }
+  #autobiography1 .autobiography1 .right {
+    background-image: none !important;
+  }
+  #autobiography2 .autobiography2 .right .name {
+    margin-left: 230px;
+  }
+  #autobiography2 .autobiography2 .right .title {
+    margin-left: 170px;
+  }
+  #autobiography2 .autobiography2 .right .description {
+    margin-left: 80px;
+  }
+  #autobiography2 .autobiography2 .right .description p {
+    width: 450px;
+  }
+  #autobiography2 .autobiography2 .right .button {
+    margin-left: 200px;
+  }
+  #promo-products .description {
+    margin-left: 120px;
+  }
+  #promo-products .description p {
+    width: 450px;
+  }
+  .cartsss .box-area {
+    margin-left: -20px;
+  }
 }/*# sourceMappingURL=style.css.map */
