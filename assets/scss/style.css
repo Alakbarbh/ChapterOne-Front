@@ -7,6 +7,9 @@
   justify-content: center;
   align-items: center;
 }
+#slider .swiper-pagination-bullet {
+  background-color: #000;
+}
 #slider body {
   position: relative;
   height: 100%;
@@ -121,7 +124,7 @@
 }
 #products .category ul li {
   list-style: none;
-  border: 1px solid black;
+  border: 1px solid rgba(128, 128, 128, 0.1019607843);
   width: 150px;
   text-align: center;
   height: 40px;
@@ -430,24 +433,25 @@
   margin-top: 200px;
 }
 #images .image1 {
+  opacity: 1;
   overflow: hidden;
 }
 #images .image1 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image1 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image2 {
   overflow: hidden;
 }
 #images .image2 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image2 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image3 {
   overflow: hidden;
@@ -455,10 +459,10 @@
 #images .image3 img {
   width: 100%;
   margin-top: 23px;
+  transition: 0.8s;
 }
 #images .image3 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image4 {
   margin-top: 20px;
@@ -466,10 +470,10 @@
 }
 #images .image4 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image4 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image5 {
   margin-top: 20px;
@@ -477,10 +481,10 @@
 }
 #images .image5 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image5 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image6 {
   margin-top: 26px;
@@ -488,20 +492,20 @@
 }
 #images .image6 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image6 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image7 {
   overflow: hidden;
 }
 #images .image7 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image7 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image8 {
   margin-top: 17px;
@@ -509,10 +513,10 @@
 }
 #images .image8 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image8 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image9 {
   margin-top: 26px;
@@ -520,10 +524,10 @@
 }
 #images .image9 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image9 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image10 {
   margin-top: 26px;
@@ -531,20 +535,20 @@
 }
 #images .image10 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image10 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image11 {
   overflow: hidden;
 }
 #images .image11 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image11 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 #images .image12 {
   overflow: hidden;
@@ -552,10 +556,10 @@
 }
 #images .image12 img {
   width: 100%;
+  transition: 0.8s;
 }
 #images .image12 img:hover {
   transform: scale(1.1);
-  transition: 0.5s;
 }
 
 #brand {
@@ -565,10 +569,10 @@
   width: 100%;
   height: 170px;
   cursor: pointer;
+  transition: 0.8s;
 }
 #brand img:hover {
   margin-top: -20px;
-  transition: 0.5s;
 }
 
 #background {
@@ -854,14 +858,14 @@
   display: none !important;
 }
 
-#background .background-images {
+#background .blog-background-images {
   height: 300px;
   background-size: cover;
   background-position: center;
 }
-#background .background-images h2 {
+#background .blog-background-images h2 {
   text-align: center;
-  color: white;
+  color: black;
   padding-top: 120px;
   font-family: monospace;
 }
@@ -1361,10 +1365,10 @@
   width: 100%;
   height: 170px;
   cursor: pointer;
+  transition: 0.8s;
 }
 #brand img:hover {
   margin-top: -20px;
-  transition: 0.5s;
 }
 
 #background .background-images {
@@ -1739,13 +1743,13 @@
   font-family: monospace;
 }
 
-#products .basket-products {
+#cart-products .basket-products {
   margin-top: 53px;
   box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 transparent, 0 1px 3px 0 rgba(0, 0, 0, 0.12) !important;
   border-radius: 4px;
   background: #fff;
 }
-#products .basket-products .table th {
+#cart-products .basket-products .table th {
   height: 48px;
   text-align: center;
   color: rgba(0, 0, 0, 0.54);
@@ -1754,10 +1758,10 @@
   border-bottom-style: solid;
   border-color: black;
 }
-#products tbody tr:nth-child(2) td:nth-child(6) a {
+#cart-products tbody tr:nth-child(2) td:nth-child(6) a {
   color: white !important;
 }
-#products tbody td {
+#cart-products tbody td {
   text-align: center;
   width: 203px;
   height: 103px;
@@ -1766,18 +1770,18 @@
   text-decoration: none;
   font-weight: 500;
 }
-#products tbody td:nth-child(2) {
+#cart-products tbody td:nth-child(2) {
   padding-top: 38px;
 }
-#products tbody td:nth-child(3) {
+#cart-products tbody td:nth-child(3) {
   padding-top: 38px;
   font-size: 21px;
   font-weight: 500;
 }
-#products tbody td:nth-child(4) {
+#cart-products tbody td:nth-child(4) {
   padding-top: 38px;
 }
-#products tbody td:nth-child(4) button {
+#cart-products tbody td:nth-child(4) button {
   padding: 0;
   min-width: 0;
   width: 40px;
@@ -1789,26 +1793,26 @@
   background-color: white;
   cursor: pointer;
 }
-#products tbody td:nth-child(4) button i {
+#cart-products tbody td:nth-child(4) button i {
   color: rgba(0, 0, 0, 0.54);
 }
-#products tbody td:nth-child(6) {
+#cart-products tbody td:nth-child(6) {
   padding-top: 38px;
 }
-#products tbody td:nth-child(5) {
+#cart-products tbody td:nth-child(5) {
   padding-top: 38px;
 }
-#products tbody td a {
+#cart-products tbody td a {
   color: rgba(0, 0, 0, 0.87);
   font-size: 1rem;
   text-decoration: none;
   font-weight: 500;
 }
-#products tbody td img {
+#cart-products tbody td img {
   padding-left: 47px;
   height: 101px;
 }
-#products tbody td .shop {
+#cart-products tbody td .shop {
   margin-left: 19px;
   margin-top: 13px;
   text-align: center;
@@ -1819,14 +1823,14 @@
   border: none;
   border-radius: 0;
 }
-#products tbody td .shop:hover {
+#cart-products tbody td .shop:hover {
   background-color: rgb(172, 2, 2);
   transition: 0.5s;
 }
-#products tbody td .shop a {
+#cart-products tbody td .shop a {
   color: #fff;
 }
-#products tbody td input {
+#cart-products tbody td input {
   width: 80px;
   text-align: center;
   background-color: #eee;
@@ -1834,13 +1838,13 @@
   border: 1px solid #e5e5e5;
   color: rgba(0, 0, 0, 0.54);
 }
-#products tbody .price {
+#cart-products tbody .price {
   padding-top: 38px;
   font-size: 21px;
   font-weight: 500;
   color: red;
 }
-#products tbody .check {
+#cart-products tbody .check {
   position: relative;
   bottom: 14px;
   right: 15px;
@@ -1851,29 +1855,29 @@
   width: 181px;
   height: 49px;
 }
-#products .show-alert .alert {
+#cart-products .show-alert .alert {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#products .show-alert .alert .btn-red {
+#cart-products .show-alert .alert .btn-red {
   background-color: #f33927;
   height: 32px;
   border-radius: 18px;
   padding: 5px 12px 6px 12px;
   color: #fff;
 }
-#products .show-alert .button-shop {
+#cart-products .show-alert .button-shop {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#products .show-alert .button-shop button {
+#cart-products .show-alert .button-shop button {
   background-color: #d14031;
   border: none;
   border-radius: 0;
 }
-#products .show-alert .btn-orange {
+#cart-products .show-alert .btn-orange {
   display: block;
   color: #fff;
   margin-top: 20px;
@@ -1893,17 +1897,17 @@
   font-family: monospace;
 }
 
-#products .wishlist-products {
+#wishlist-products .wishlist-products {
   margin-top: 53px;
   box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 transparent, 0 1px 3px 0 rgba(0, 0, 0, 0.12) !important;
   border-radius: 4px;
   background: #fff;
 }
-#products .wishlist-products .table tr {
+#wishlist-products .wishlist-products .table tr {
   display: flex;
   justify-content: center;
 }
-#products .wishlist-products .table tr th {
+#wishlist-products .wishlist-products .table tr th {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1918,20 +1922,20 @@
   border-bottom-style: solid;
   border-color: black;
 }
-#products .wishlist-products .table tr th button {
+#wishlist-products .wishlist-products .table tr th button {
   background-color: #d14031;
   border: none;
   border-radius: 0;
 }
-#products .wishlist-products .table tr th button:hover {
+#wishlist-products .wishlist-products .table tr th button:hover {
   background-color: rgb(172, 2, 2);
   transition: 0.5s;
 }
-#products .wishlist-products .table tbody tr {
+#wishlist-products .wishlist-products .table tbody tr {
   display: flex;
   justify-content: center;
 }
-#products .wishlist-products .table tbody td {
+#wishlist-products .wishlist-products .table tbody td {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1943,24 +1947,24 @@
   text-decoration: none;
   font-weight: 500;
 }
-#products .wishlist-products .table tbody td:nth-child(2) {
+#wishlist-products .wishlist-products .table tbody td:nth-child(2) {
   width: 300px;
 }
-#products .wishlist-products .table tbody td:nth-child(3) {
+#wishlist-products .wishlist-products .table tbody td:nth-child(3) {
   font-size: 21px;
   font-weight: 500;
 }
-#products .wishlist-products .table tbody td a {
+#wishlist-products .wishlist-products .table tbody td a {
   color: rgba(0, 0, 0, 0.87);
   font-size: 1rem;
   text-decoration: none;
   font-weight: 500;
 }
-#products .wishlist-products .table tbody td img {
+#wishlist-products .wishlist-products .table tbody td img {
   padding-left: 47px;
   height: 101px;
 }
-#products .wishlist-products .table tbody td .btn {
+#wishlist-products .wishlist-products .table tbody td .btn {
   margin-top: 13px;
   text-align: center;
   cursor: pointer;
@@ -1971,11 +1975,11 @@
   border: none;
   margin-left: -445px;
 }
-#products .wishlist-products .table tbody td .btn:hover {
+#wishlist-products .wishlist-products .table tbody td .btn:hover {
   background-color: rgb(172, 2, 2);
   transition: 0.5s;
 }
-#products .wishlist-products .table tbody td a {
+#wishlist-products .wishlist-products .table tbody td a {
   color: #fff;
   font-size: 1rem;
   text-decoration: none;
@@ -2009,12 +2013,12 @@
   width: 179px;
 }
 
-#background .background-images {
+#background .login-background-images {
   height: 300px;
   background-size: cover;
   background-position: center;
 }
-#background .background-images h2 {
+#background .login-background-images h2 {
   text-align: center;
   color: white;
   padding-top: 120px;
@@ -3595,6 +3599,12 @@
   }
   #blog-detail .section-10 {
     margin-left: 0;
+  }
+  #cart-products .basket-products {
+    overflow-x: scroll;
+  }
+  #wishlist-products .wishlist-products {
+    overflow-x: scroll;
   }
 }
 @media (min-width: 760px) and (max-width: 1200px) {

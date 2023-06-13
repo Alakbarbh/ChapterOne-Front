@@ -282,12 +282,11 @@
 
     .btn {
         margin-left: 350px;
-
+        
         #topbtn {
             width: 40px;
             height: 40px;
             border-radius: 50%;
-
             i {
                 color: #909090;
                 font-size: 23px;
@@ -810,6 +809,18 @@
             margin-left: 0;
         }
     }
+
+    #cart-products{
+        .basket-products{
+            overflow-x: scroll;
+        }
+    }
+
+    #wishlist-products{
+        .wishlist-products{
+            overflow-x: scroll;
+        }
+    }
 }
 
 @media (min-width:760px) and (max-width:1200px) {
@@ -1099,6 +1110,5 @@
             margin-left: 0;
         }
     }
-
 }
 

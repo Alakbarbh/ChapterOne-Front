@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //Navbarın fixed olub aşağı gəlməyi
+    //Navbar fixed
     $(window).scroll(function () {
         var header = $('#navbar'),
             scroll = $(window).scrollTop();
@@ -57,12 +57,11 @@ $(document).ready(function () {
     $('#topbtn').click(function () {
         $('html').animate({
             scrollTop: 0
-        }, 900)
+        }, 100)
 
     })
 
-
-
+    //Phone-tablet navbars
     let searchPhone = document.querySelector("#navbar-phone .icons ul li .search")
     searchPhone.addEventListener("click", function () {
         document.querySelector("#navbar-phone .search-input").classList.toggle("d-none")
