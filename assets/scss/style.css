@@ -429,136 +429,136 @@
   width: 300px;
 }
 
-#images {
+#gallery {
   margin-top: 200px;
 }
-#images .image1 {
+#gallery .image1 {
   opacity: 1;
   overflow: hidden;
 }
-#images .image1 img {
+#gallery .image1 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image1 img:hover {
+#gallery .image1 img:hover {
   transform: scale(1.1);
 }
-#images .image2 {
+#gallery .image2 {
   overflow: hidden;
 }
-#images .image2 img {
+#gallery .image2 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image2 img:hover {
+#gallery .image2 img:hover {
   transform: scale(1.1);
 }
-#images .image3 {
+#gallery .image3 {
   overflow: hidden;
 }
-#images .image3 img {
+#gallery .image3 img {
   width: 100%;
   margin-top: 23px;
   transition: 0.8s;
 }
-#images .image3 img:hover {
+#gallery .image3 img:hover {
   transform: scale(1.1);
 }
-#images .image4 {
+#gallery .image4 {
   margin-top: 20px;
   overflow: hidden;
 }
-#images .image4 img {
+#gallery .image4 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image4 img:hover {
+#gallery .image4 img:hover {
   transform: scale(1.1);
 }
-#images .image5 {
+#gallery .image5 {
   margin-top: 20px;
   overflow: hidden;
 }
-#images .image5 img {
+#gallery .image5 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image5 img:hover {
+#gallery .image5 img:hover {
   transform: scale(1.1);
 }
-#images .image6 {
+#gallery .image6 {
   margin-top: 26px;
   overflow: hidden;
 }
-#images .image6 img {
+#gallery .image6 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image6 img:hover {
+#gallery .image6 img:hover {
   transform: scale(1.1);
 }
-#images .image7 {
+#gallery .image7 {
   overflow: hidden;
 }
-#images .image7 img {
+#gallery .image7 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image7 img:hover {
+#gallery .image7 img:hover {
   transform: scale(1.1);
 }
-#images .image8 {
+#gallery .image8 {
   margin-top: 17px;
   overflow: hidden;
 }
-#images .image8 img {
+#gallery .image8 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image8 img:hover {
+#gallery .image8 img:hover {
   transform: scale(1.1);
 }
-#images .image9 {
+#gallery .image9 {
   margin-top: 26px;
   overflow: hidden;
 }
-#images .image9 img {
+#gallery .image9 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image9 img:hover {
+#gallery .image9 img:hover {
   transform: scale(1.1);
 }
-#images .image10 {
+#gallery .image10 {
   margin-top: 26px;
   overflow: hidden;
 }
-#images .image10 img {
+#gallery .image10 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image10 img:hover {
+#gallery .image10 img:hover {
   transform: scale(1.1);
 }
-#images .image11 {
+#gallery .image11 {
   overflow: hidden;
 }
-#images .image11 img {
+#gallery .image11 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image11 img:hover {
+#gallery .image11 img:hover {
   transform: scale(1.1);
 }
-#images .image12 {
+#gallery .image12 {
   overflow: hidden;
   margin-top: 18px;
 }
-#images .image12 img {
+#gallery .image12 img {
   width: 100%;
   transition: 0.8s;
 }
-#images .image12 img:hover {
+#gallery .image12 img:hover {
   transform: scale(1.1);
 }
 
