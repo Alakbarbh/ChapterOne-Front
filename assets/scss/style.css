@@ -186,7 +186,6 @@
   background-color: rgb(172, 2, 2);
   transition: 0.5s;
 }
-
 #our-services {
   margin-top: 100px;
 }
@@ -2122,6 +2121,9 @@
 #login-form .account .dont-account p {
   font-weight: bold;
 }
+#login-form .account .register {
+  margin-left: 5px;
+}
 #login-form .account .register a {
   text-decoration: none;
   color: rgb(241, 6, 6);
@@ -3303,11 +3305,12 @@
 #footer .btn #topbtn {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  background-color: #d14031;
+  border: none;
 }
 #footer .btn #topbtn i {
-  color: #909090;
-  font-size: 23px;
+  color: white !important;
+  font-size: 15px;
 }
 
 #navbar-phone .nav {
@@ -3738,5 +3741,17 @@
   }
   #blog-detail .section-10 {
     margin-left: 0;
+  }
+  #footer .footer-background-color {
+    background-color: #282828;
+  }
+  #footer .footer-background-color .right .story .images1 img {
+    width: 31%;
+  }
+  #footer .footer-background-color .right .story .images2 img {
+    width: 31%;
+  }
+  #footer .footer-background-color .btn {
+    margin-left: 220px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -286,10 +286,12 @@
         #topbtn {
             width: 40px;
             height: 40px;
-            border-radius: 50%;
+            background-color: #d14031;
+            border: none;
+
             i {
-                color: #909090;
-                font-size: 23px;
+                color: white !important;
+                font-size: 15px;
             }
         }
     }
@@ -1108,6 +1110,31 @@
         
         .section-10 {
             margin-left: 0;
+        }
+    }
+
+    #footer {
+        .footer-background-color {
+            background-color: #282828;
+            .right {
+                .story {
+                    .images1 {
+                        img {
+                            width: 31%;
+                        }
+                    }
+
+                    .images2 {
+                        img {
+                            width: 31%;
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                margin-left: 220px;
+            }
         }
     }
 }
