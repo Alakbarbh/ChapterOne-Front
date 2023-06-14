@@ -61,16 +61,60 @@ $(document).ready(function () {
 
     })
 
-    //Phone-tablet navbars
+    //Phone-tablet navbars search
     let searchPhone = document.querySelector("#navbar-phone .icons ul li .search")
     searchPhone.addEventListener("click", function () {
         document.querySelector("#navbar-phone .search-input").classList.toggle("d-none")
     })
 
-
+    //Phone-tablet navbars menu
     let hamburgerMenu = document.querySelector("#navbar-phone .nav .hamburger-icon i")
     hamburgerMenu.addEventListener("click", function () {
         document.querySelector("#navbar-phone .hamburger-menu").classList.toggle("d-none")
     })
 
+    $('#navbar .logo-pages .pages li').each(function(i, elem) {
+        debugger
+         let page = $(this).children(0).attr("href");
+         let url = location.href.split("/");
+         let urlStr = url[url.length - 1];
+         if(page == urlStr){
+             $("#navbar .logo-pages .pages li").removeClass("active-navbar");
+             $(elem).addClass("active-navbar");
+         }
+         
+     });
+
+    $('#navbar .logo-pages .pages li').click(function (e) {
+        e.preventDefault()
+        $("#navbar .logo-pages .pages li").removeClass("active-navbar");
+        // $(".tab").addClass("active"); // instead of this do the below 
+        let page = $(this).children(0).attr("href");
+        let url = location.href.split("/");
+        let urlStr = url[url.length - 1];
+        let resultUrl = url.toString().replace(urlStr,page);
+        let end = resultUrl.replaceAll(",","/")
+        document.location = end;
+        $(this).addClass("active-navbar");
+
+    });
+
+
+
+    // $(document).ready(function () {
+
+    //     $('#navbar .logo-pages .pages li')
+    //             .click(function (e) {
+    //         $('#navbar .logo-pages .pages li')
+    //             .removeClass('.active');
+    //         $(this).addClass('.active');
+    //     });
+    // });
+
+    // $('#navbar .logo-pages .pages li a').click(function (e) {
+    //     $('#navbar .logo-pages .pages li a').css("color","");
+    //     $(this).css("color","red")
+    // });
+
+    
 })
