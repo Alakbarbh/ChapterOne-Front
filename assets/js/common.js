@@ -73,31 +73,31 @@ $(document).ready(function () {
         document.querySelector("#navbar-phone .hamburger-menu").classList.toggle("d-none")
     })
 
-    $('#navbar .logo-pages .pages li').each(function(i, elem) {
-        debugger
-         let page = $(this).children(0).attr("href");
-         let url = location.href.split("/");
-         let urlStr = url[url.length - 1];
-         if(page == urlStr){
-             $("#navbar .logo-pages .pages li").removeClass("active-navbar");
-             $(elem).addClass("active-navbar");
-         }
-         
-     });
+    // $('#navbar .logo-pages .pages li').each(function(i, elem) {
+    //     debugger
+    //      let page = $(this).children(0).attr("href");
+    //      let url = location.href.split("/");
+    //      let urlStr = url[url.length - 1];
+    //      if(page == urlStr){
+    //          $("#navbar .logo-pages .pages li").removeClass("active-navbar");
+    //          $(elem).addClass("active-navbar");
+    //      }
 
-    $('#navbar .logo-pages .pages li').click(function (e) {
-        e.preventDefault()
-        $("#navbar .logo-pages .pages li").removeClass("active-navbar");
-        // $(".tab").addClass("active"); // instead of this do the below 
-        let page = $(this).children(0).attr("href");
-        let url = location.href.split("/");
-        let urlStr = url[url.length - 1];
-        let resultUrl = url.toString().replace(urlStr,page);
-        let end = resultUrl.replaceAll(",","/")
-        document.location = end;
-        $(this).addClass("active-navbar");
+    //  });
 
-    });
+    // $('#navbar .logo-pages .pages li').click(function (e) {
+    //     e.preventDefault()
+    //     $("#navbar .logo-pages .pages li").removeClass("active-navbar");
+    //     // $(".tab").addClass("active"); // instead of this do the below 
+    //     let page = $(this).children(0).attr("href");
+    //     let url = location.href.split("/");
+    //     let urlStr = url[url.length - 1];
+    //     let resultUrl = url.toString().replace(urlStr,page);
+    //     let end = resultUrl.replaceAll(",","/")
+    //     document.location = end;
+    //     $(this).addClass("active-navbar");
+
+    // });
 
 
 
@@ -116,5 +116,17 @@ $(document).ready(function () {
     //     $(this).css("color","red")
     // });
 
-    
+
+    var menuItems = document.querySelectorAll("#pages ul li a");
+
+    menuItems.forEach(function (item) {
+        item.addEventListener("click", function (event) {
+            
+            menuItems.forEach(function (item) {
+                item.classList.remove("active-menu");
+            });
+            
+            event.target.classList.add("active-menu");
+        });
+    });
 })

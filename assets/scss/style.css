@@ -3110,8 +3110,8 @@
   display: flex;
   gap: 20px;
 }
-#navbar .logo-pages .pages ul .active-navbar a {
-  color: red;
+#navbar .logo-pages .pages ul .active-menu a {
+  color: #d14031;
 }
 #navbar .logo-pages .pages ul li {
   list-style: none;
