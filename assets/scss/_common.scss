@@ -121,11 +121,12 @@
     .search-input {
         right: 113px;
         position: absolute;
-        top: 103px;
-
+        top: 125px;
+        width: 85%;
         input {
             border: none;
             outline: none;
+            width: 100%;
         }
     }
 
