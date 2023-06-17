@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -134,7 +134,7 @@
                             <button class="shop">READ MORE</button>
                         </div>
                         <div class="swiper-slide">
-                            <img src="./assets/images/home/slider-image-3.jpg" alt="">
+                            <img src="./assets/images/home/slider-image-3.png" alt="">
                             <p>IT'S CHAPTERONE</p>
                             <h1>The all-time classics</h1>
                             <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil pariatur facere deserunt
@@ -163,16 +163,15 @@
                                     class="btn-tab">Fantasy</a></li>
                             <li class="item btn-tab" onclick="filterSelection('history')" data-id="history"><a
                                     class="btn-tab">History</a></li>
-                            <li class="item btn-tab" data-id="art"><a class="btn-tab"
-                                    onclick="filterSelection('art')">Art</a>
+                            <li class="item btn-tab" onclick="filterSelection('art')" data-id="art"><a
+                                    class="btn-tab">Art</a>
                             </li>
                             <li class="item btn-tab" onclick="filterSelection('lovestories')" data-id="lovestories"><a
                                     class="btn-tab">Love Stories</a></li>
                         </ul>
                     </div>
 
-
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv fantasy all">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv fantasy all product">
                         <div class="products" data-id="1">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-1.jpg" alt=""></a>
                             <div class="name">
@@ -184,13 +183,16 @@
                             <div class="price-button">
                                 <p>$38.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv fantasy all">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv fantasy all product">
                         <div class="products" data-id="2">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-2.jpg" alt=""></a>
                             <div class="name">
@@ -202,13 +204,16 @@
                             <div class="price-button">
                                 <p>$22.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                      
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv bestsellers all">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv bestsellers all product">
                         <div class="products" data-id="3">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-3.jpg" alt=""></a>
                             <div class="name">
@@ -220,13 +225,16 @@
                             <div class="price-button">
                                 <p>$67.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv history all">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv history all product">
                         <div class="products" data-id="4">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-4.jpg" alt=""></a>
                             <div class="name">
@@ -238,13 +246,16 @@
                             <div class="price-button">
                                 <p>$30.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv bestsellers history all">
+                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv bestsellers history all product">
                         <div class="products" data-id="5">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-5.jpg" alt=""></a>
                             <div class="name">
@@ -256,13 +267,17 @@
                             <div class="price-button">
                                 <p>$29.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
+                           
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv art all">
+                    <div class="col-lg-3 col-md-6 col-sm-12  filterDiv art all product">
                         <div class="products" data-id="6">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-6.jpg" alt=""></a>
                             <div class="name">
@@ -274,13 +289,16 @@
                             <div class="price-button">
                                 <p>$78.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv art all">
+                    <div class="col-lg-3 col-md-6 col-sm-12  filterDiv art all product">
                         <div class="products" data-id="7">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-7.jpg" alt=""></a>
                             <div class="name">
@@ -292,13 +310,16 @@
                             <div class="price-button">
                                 <p>$69.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv bestsellers lovestories all all-products">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv bestsellers lovestories all product">
                         <div class="products" data-id="8">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-8.jpg" alt=""></a>
                             <div class="name">
@@ -310,13 +331,16 @@
                             <div class="price-button">
                                 <p>$33.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv lovestories all">
+                    <div class="col-lg-3 col-md-6 col-sm-12  filterDiv lovestories all product">
                         <div class="products" data-id="9">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-9.jpg" alt=""></a>
                             <div class="name">
@@ -328,13 +352,16 @@
                             <div class="price-button">
                                 <p>$50.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                      
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv all">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv all product">
                         <div class="products" data-id="10">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-10.jpg" alt=""></a>
                             <div class="name">
@@ -346,13 +373,16 @@
                             <div class="price-button">
                                 <p>$56.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                     
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 all-products filterDiv fantasy all">
+                    <div class="col-lg-3 col-md-6 col-sm-12  filterDiv fantasy all product">
                         <div class="products" data-id="11">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-11.webp" alt=""></a>
                             <div class="name">
@@ -364,13 +394,16 @@
                             <div class="price-button">
                                 <p>$66.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                    
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv fantasy all all-products">
+                    <div class="col-lg-3 col-md-6 col-sm-12 filterDiv fantasy all product">
                         <div class="products" data-id="2">
                             <a href="ProductDetail.html"><img src="./assets/images/home/product-12.png" alt=""></a>
                             <div class="name">
@@ -382,11 +415,14 @@
                             <div class="price-button">
                                 <p>$45.00</p>
                             </div>
+                            <div class="wishlist-cart">
+                                <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Wishlist"></i>
+                                <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top"
+                                    title="Add To Cart"></i>
+                            </div>
                         </div>
-                        <div class="wishlist-cart">
-                            <i class="fa-solid fa-heart" data-toggle="tooltip" data-placement="top" title="Add To Wishlist"></i>
-                            <i class="fa-solid fa-cart-shopping" data-toggle="tooltip" data-placement="top" title="Add To Cart"></i>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -761,8 +797,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/slick-1.8.1/slick/slick.js"></script>
     <script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
-    <script src="./assets/js/home.js"></script>
     <script src="./assets/js/common.js"></script>
+    <script src="./assets/js/home.js"></script>
 </body>
 
 </html>
