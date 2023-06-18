@@ -89,12 +89,31 @@
 
         .wishlist {
             margin-left: 12px;
-
+            display: flex;
             a {
 
                 i {
                     font-size: 20px;
                     color: black;
+                }
+            }
+
+            .wishlist-number {
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background-color: red;
+                color: white;
+                margin-top: -7px;
+                margin-left: -5px;
+                position: relative;
+                margin-right: -4px;
+
+                span {
+                    font-size: 13px;
+                    position: absolute;
+                    left: 3px;
+                    bottom: -2px;
                 }
             }
 
@@ -380,6 +399,7 @@
     }
 }
 
+//Responsive-Phone
 @media (max-width:850px) {
     #slider {
         .swiper {
@@ -451,13 +471,13 @@
             .services {
                 margin-left: -90px;
 
-                p {}
+                
             }
 
             .month {
                 margin-left: -75px;
 
-                h1 {}
+                
             }
 
             .description {
@@ -480,13 +500,13 @@
                 .name {
                     margin-left: 121px;
 
-                    p {}
+                    
                 }
 
                 .title {
                     margin-left: 60px;
 
-                    h3 {}
+                    
                 }
 
                 .description {
@@ -501,7 +521,7 @@
                 .button {
                     margin-left: 97px;
 
-                    button {}
+                    
                 }
             }
 
@@ -533,7 +553,7 @@
                 .title {
                     margin-left: 60px;
 
-                    h3 {}
+                    
                 }
 
                 .description {
@@ -548,7 +568,7 @@
                 .button {
                     margin-left: 97px;
 
-                    button {}
+                    
                 }
             }
 
@@ -834,6 +854,7 @@
     }
 }
 
+//Responsive-Tablet
 @media (min-width:760px) and (max-width:1200px) {
     #products {
         .category {

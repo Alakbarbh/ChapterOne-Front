@@ -3315,10 +3315,28 @@
 }
 #navbar .basket-search .wishlist {
   margin-left: 12px;
+  display: flex;
 }
 #navbar .basket-search .wishlist a i {
   font-size: 20px;
   color: black;
+}
+#navbar .basket-search .wishlist .wishlist-number {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  margin-top: -7px;
+  margin-left: -5px;
+  position: relative;
+  margin-right: -4px;
+}
+#navbar .basket-search .wishlist .wishlist-number span {
+  font-size: 13px;
+  position: absolute;
+  left: 3px;
+  bottom: -2px;
 }
 #navbar .basket-search .wishlist .border {
   margin-left: 10px;
